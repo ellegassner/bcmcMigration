@@ -1,11 +1,19 @@
 {
-    "main": "Product",
+    "name": "Product",
     "sections": {
         "main": {
-            "type": "static-main-product"
+            "type": "main-product"
+        },
+        "testimonials": {
+            "type": "product-testimonials"
+        },
+        "recommendations": {
+            "type": "product-recommendations"
         }
     },
     "order": [
-        "main"
+        "main",
+        "testimonials",
+        "recommendations"
     ]
 }
