@@ -1,0 +1,180 @@
+{% comment %}
+  Product gallery
+
+  @param product {object}
+    Product to use
+
+  @param selected_media {object}
+
+  @param selected_variant {object}
+
+  @param is_quickshop {Bool}
+    Is the snippet being loaded in a QuickShop
+{% endcomment %}
+
+{% assign default_media = product.featured_media %}
+
+{% if selected_variant and selected_variant.featured_media %}
+  {% assign default_media = selected_variant.featured_media %}
+{% endif %}
+
+{% assign models = product.media | where: 'media_type', 'model' %}
+{% assign first_model = models | first %}
+
+<div
+  class="product-slideshow"
+  data-product-slideshow
+  data-product-models={{ models | json }}
+  data-product-viewport-parent
+>
+  <div
+    class="product-slideshow-viewport"
+    data-product-slideshow-viewport
+  >
+    {% for media in product.media %}
+      <figure
+        class="
+          product-slideshow-media-figure
+          {% if default_media.id == media.id %}
+            product-slideshow-media-selected
+          {% endif %}
+        "
+        data-media-type="{{ media.media_type }}"
+        data-product-slideshow-media="{{ media.id }}"
+        data-product-gallery-figure
+      >
+        <div
+          class="product-media-wrapper"
+          data-object-fit-item
+        >
+          {% case media.media_type %}
+          {% when 'image' %}
+            {%- capture data_attr -%}
+              data-image-zoom="{{ media.id }}"
+            {%- endcapture -%}
+            {%
+              include 'rimg',
+              class: 'product-slideshow-media-img',
+              img: media.preview_image,
+              size: '1250x',
+              attr: data_attr,
+              lazy: true,
+            %}
+
+            {% if enable_product_gallery_zoom %}
+              <div class="product-image-zoom">
+                {% include 'icons', id: 'zoom' %}
+              </div>
+            {% endif %}
+          {% when 'model' %}
+            {{ media | model_viewer_tag: image_size: '1024x', reveal: 'interaction' , toggleable: true, interaction-prompt-threshold: 0 }}
+          {% when 'video' %}
+            {{ media | media_tag: image_size: '1024x' }}
+          {% when 'external_video' %}
+            {{ media | media_tag: image_size: '1024x' }}
+          {% else %}
+            {{ media | media_tag }}
+          {% endcase %}
+        </div>
+        {% if media.media_type == 'model' %}
+          {% assign model = media %}
+        {% else %}
+          {% assign model = first_model %}
+        {% endif %}
+        {% if model %}
+          <button
+            class="product-gallery--viewinyourspace"
+            data-shopify-xr
+            data-shopify-model3d-id="{{ model.id }}"
+            data-shopify-title="{{ product.title }}"
+            data-shopify-xr-hidden
+          >
+            {% include 'icons', id: 'ar' %}
+            {{ 'product.media.view_in_your_space' | t }}
+          </button>
+        {% endif %}
+      </figure>
+    {% else %}
+      <figure
+        class="
+          product-slideshow-media
+          product-slideshow-media-selected
+        "
+      >
+        <div class="product-media-wrapper">
+          {{ 'image'| placeholder_svg_tag: 'product-slideshow-media-img placeholder-svg' }}
+        </div>
+      </figure>
+    {% endfor %}
+  </div>
+
+  {% if product.media.size > 1 %}
+    <div
+      class="product-slideshow-thumbnails-wrapper"
+      data-product-slideshow-thumbnails-wrapper
+    >
+      <button
+        class="product-slideshow-thumbnails-prev"
+        data-product-slideshow-thumbnails-prev
+      >
+        {%
+          include 'icons',
+          id: 'chevron',
+          icon_class: 'product-slideshow-thumbnails-icon'
+        %}
+      </button>
+      <button
+        class="product-slideshow-thumbnails-next"
+        data-product-slideshow-thumbnails-next
+      >
+        {%
+          include 'icons',
+          id: 'chevron',
+          icon_class: 'product-slideshow-thumbnails-icon'
+        %}
+      </button>
+      <div
+        class="product-slideshow-thumbnails"
+        data-product-slideshow-thumbnails
+      >
+        {% for media in product.media %}
+          <button
+            class="
+              product-slideshow-thumbnail
+              {% if default_media.id == media.id %}
+                product-slideshow-thumbnail-selected
+              {% endif %}
+            "
+            data-product-slideshow-thumbnail="{{ media.id }}"
+            data-product-slideshow-thumbnail-index="{{ forloop.index0 }}"
+          >
+            <span
+              class="product-slideshow-thumbnail-wrapper"
+              data-object-fit-item
+            >
+              {% assign thumbnail_size = '290x' %}
+              {% if is_quickshop %}
+                {% assign thumbnail_size = '70x' %}
+              {% endif %}
+              {%
+                include 'rimg',
+                class: 'product-slideshow-thumbnail-img',
+                img: media.preview_image,
+                size: thumbnail_size,
+                lazy: true,
+              %}
+              {% case media.media_type %}
+              {% when 'model' %}
+                {% include 'icons', id: 'model-thumb' %}
+              {% when 'video' %}
+                {% include 'icons', id: 'play-thumb' %}
+              {% when 'external_video' %}
+                {% include 'icons', id: 'play-thumb' %}
+              {% endcase %}
+            </span>
+          </button>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>

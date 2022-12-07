@@ -1,0 +1,1870 @@
+{
+  "current": {
+    "color_background": "#ffffff",
+    "color_headings": "#a9684d",
+    "color_text": "#2b4440",
+    "color_links": "#794920",
+    "color_accent_primary": "#a9684d",
+    "color_accent_secondary": "#2b4440",
+    "color_sales_background": "#a9684d",
+    "color_sales_text": "#fff",
+    "color_button_primary": "#fff",
+    "color_button_secondary": "#ffffff",
+    "type_primary": "amiri_n4",
+    "type_secondary": "open_sans_n4",
+    "type_button": "primary",
+    "embellishment_edges": "soft_round",
+    "embellishment_animation_curve": "ease-out-back",
+    "embellishment_icons": "thin",
+    "embellishment_pattern": "none",
+    "embellishment_custom_pattern": "",
+    "enable_checkout_lock_icon": false,
+    "enable_product_quickshop": true,
+    "qs_show_vendor": true,
+    "qs_show_social_sharing_buttons": true,
+    "qs_gallery_video_autoplay": true,
+    "qs_gallery_video_looping": true,
+    "qs_options_position": "below",
+    "qs_quantity_picker_style": "integrated-with-button",
+    "qs_show_payment_button": true,
+    "qs_enable_cart_redirect": false,
+    "product_grid_image_style": "natural",
+    "product_grid_image_crop": true,
+    "enable_search_articles_pages": true,
+    "s_products_enable_standard_product_grid": false,
+    "s_products_products_per_row": 4,
+    "s_products_products_per_page": 12,
+    "social_default_image": "",
+    "social_facebook": "https:\/\/www.facebook.com\/BC-Makers-Collective-101165758390551\/",
+    "social_twitter": "",
+    "social_pinterest": "",
+    "social_instagram": "https:\/\/instagram.com\/bcmakerscollective",
+    "social_tumblr": "",
+    "social_vimeo": "",
+    "social_youtube": "",
+    "social_rss": "",
+    "social_email": "info@bcmakerscollective.com",
+    "favicon": "shopify:\/\/shop_images\/Favicon.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Copy_of_BC_MAKERS_BLACK_61f6d7fd-9e7b-4a21-8888-e8ba015486ca.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "product_gallery_placement": "left",
+    "product_show_share_buttons": true,
+    "sections": {
+      "static-header": {
+        "type": "static-header",
+        "settings": {
+          "sticky_header": false,
+          "logo": "shopify:\/\/shop_images\/BC_Makers_Collective_logo_2_Thicker.png",
+          "logo_height": 100,
+          "logo_width": 100,
+          "main_menu": "main-menu",
+          "navigation_layout": "drawer",
+          "story_handle": ""
+        }
+      },
+      "static-footer": {
+        "type": "static-footer",
+        "blocks": {
+          "1518649856176": {
+            "type": "menu",
+            "settings": {
+              "menu": "main-menu"
+            }
+          },
+          "static-footer-0": {
+            "type": "menu",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "1517438479354": {
+            "type": "social_media",
+            "settings": {
+            }
+          },
+          "static-footer-1": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Subscribe",
+              "text": "<p>Join us in supporting local makers! For information on new artists and products, subscribe to our newsletter!<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1518649856176",
+          "static-footer-0",
+          "1517438479354",
+          "static-footer-1"
+        ],
+        "settings": {
+          "payment_icons": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "static-product-pages": {
+        "type": "static-product-pages",
+        "settings": {
+          "show_vendor": true,
+          "show_social_sharing_buttons": true,
+          "enable_sticky_details": true,
+          "product_gallery_layout_desktop": "slideshow",
+          "product_gallery_position_desktop": "left",
+          "product_gallery_position_mobile": "below",
+          "enable_image_zoom": true,
+          "gallery_video_autoplay": false,
+          "gallery_video_looping": false,
+          "options_position": "below",
+          "quantity_picker_style": "integrated-with-button",
+          "show_payment_button": true,
+          "enable_cart_redirect": true
+        }
+      },
+      "static-blog": {
+        "type": "static-blog",
+        "settings": {
+          "show_rss_link": false,
+          "show_date": true,
+          "show_author": false,
+          "show_comments_count": true,
+          "show_excerpt": true,
+          "show_tags": true,
+          "posts_per_page": 6
+        }
+      },
+      "1519077071323": {
+        "type": "dynamic-slideshow",
+        "blocks": {
+          "6ceb06b8-6128-4c26-b7d9-39824e21aae3": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rebecca_Santry-Banner_Photo.jpg",
+              "text_layout": "full-width-left",
+              "custom_color": true,
+              "text_color": "#2f5d62",
+              "title": "",
+              "text": "",
+              "link": "",
+              "link_text": "",
+              "button_style": "secondary"
+            }
+          },
+          "1519077321446": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/filament-design-joseph-band.jpg",
+              "text_layout": "full-width-left",
+              "custom_color": false,
+              "text_color": "#e8d4ad",
+              "title": "",
+              "text": "",
+              "link": "",
+              "link_text": "",
+              "button_style": "secondary"
+            }
+          },
+          "1519077071323-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/studio-a-ceramics-allysha-hurd.jpg",
+              "text_layout": "full-width-right",
+              "custom_color": true,
+              "text_color": "#a9684d",
+              "title": "",
+              "text": "",
+              "link": "",
+              "link_text": "",
+              "button_style": "secondary"
+            }
+          },
+          "1596761452905": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bueno-custom-karina-erhardt-photography.jpg",
+              "text_layout": "full-width-right",
+              "custom_color": true,
+              "text_color": "#e4c4a7",
+              "title": "",
+              "text": "",
+              "link": "",
+              "link_text": "",
+              "button_style": "secondary"
+            }
+          }
+        },
+        "block_order": [
+          "6ceb06b8-6128-4c26-b7d9-39824e21aae3",
+          "1519077321446",
+          "1519077071323-0",
+          "1596761452905"
+        ],
+        "settings": {
+          "should_autoplay": true,
+          "slide_autoplay": 4
+        }
+      },
+      "static-testimonials": {
+        "type": "static-testimonials",
+        "settings": {
+          "title": "",
+          "subheading": "",
+          "background": "background-default"
+        }
+      },
+      "static-collection-pages": {
+        "type": "static-collection-pages",
+        "settings": {
+          "show_collection_image": true,
+          "sort_by": true,
+          "filter_style": "groups",
+          "products_enable_standard_product_grid": true,
+          "products_products_per_row": 3,
+          "products_products_per_page": 32
+        }
+      },
+      "static-list-collections": {
+        "type": "static-list-collections",
+        "settings": {
+          "show_descriptions": false,
+          "collections_per_page": 16
+        }
+      },
+      "static-article": {
+        "type": "static-article",
+        "settings": {
+          "show_date": true,
+          "show_author": true,
+          "show_tags": true,
+          "show_share_buttons": true
+        }
+      },
+      "pxs-announcement-bar": {
+        "type": "pxs-announcement-bar",
+        "settings": {
+          "show_announcement": false,
+          "announcement_home_only": false,
+          "announcement_text": "SEA TO SKY CORRIDOR : ASK US IF YOU’RE ELIGIBLE FOR FREE LOCAL PICK UP!",
+          "announcement_text_mobile": "S2S CORRIDOR : ASK US IF YOU’RE ELIGIBLE FOR FREE LOCAL PICK UP!",
+          "announcement_link": "",
+          "announcement_color": "#ffffff",
+          "announcement_background": "#2b4440"
+        }
+      },
+      "1596762316592": {
+        "type": "dynamic-slideshow",
+        "blocks": {
+          "1596762316592-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Wendy_and_Elle_Website_Photo.png",
+              "text_layout": "default-left",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Hello + Welcome!",
+              "text": "We are the owners of BC Makers Collective, Elle & Wendy! Swipe right to learn more about us... you know you want to!",
+              "link": "shopify:\/\/pages\/about-us",
+              "link_text": "Learn More",
+              "button_style": "secondary"
+            }
+          },
+          "1597181857000": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Wendy_Website_Photo.png",
+              "text_layout": "default-left",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Wendy",
+              "text": "Wendy’s career focus started in design, switched to having kids,  and now it’s a nice mix of designing and “mom-ing”. She graduated from Interior Design, before leaving Ontario and studied Holistic Nutrition and reiki, before returning to interior design in 2016. Now she’s one of those people that bakes muffins in the night when sleep is elusive, sneaks away from the kids for trail runs in the trees as often as she can, and designs custom body jewelry when she’s not busy running her business, and her home.",
+              "link": "",
+              "link_text": "",
+              "button_style": "secondary"
+            }
+          },
+          "1597181972707": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Elle_Website_Photo.png",
+              "text_layout": "default-left",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Elle",
+              "text": "Elle is a dog mom first, then a designer. She loves hiking  in the lush forests around Squamish when she’s not creating in the solitude of her studio (aka her garage), and is a big fan of a craft beer,  and a few laughs on a sunny patio. She studied Interior Design at the University of Wisconsin-Madison and relocated to British Columbia for love in 2015, and stayed because she realized what so many know: the west-coast really is the best coast.",
+              "link": "",
+              "link_text": "",
+              "button_style": "secondary"
+            }
+          }
+        },
+        "block_order": [
+          "1596762316592-0",
+          "1597181857000",
+          "1597181972707"
+        ],
+        "settings": {
+          "should_autoplay": false,
+          "slide_autoplay": 5
+        }
+      },
+      "static-cart": {
+        "type": "static-cart",
+        "settings": {
+          "shipping_calc_enable": true,
+          "shipping_calc_default_country": "Canada"
+        }
+      },
+      "static-header-reduced": {
+        "type": "static-header-reduced",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Copy_of_BC_MAKERS_BLACK_61f6d7fd-9e7b-4a21-8888-e8ba015486ca.png",
+          "logo_height": 150,
+          "logo_width": 200
+        }
+      },
+      "static-password": {
+        "type": "static-password",
+        "settings": {
+          "heading": "Opening soon!",
+          "show_newsletter": true,
+          "newsletter_text": "<p>Be the first to know when we launch<\/p>"
+        }
+      },
+      "static-product-recommendations": {
+        "type": "static-product-recommendations",
+        "settings": {
+          "show_product_recommendations": false,
+          "product_recommendations_heading": "You may also like",
+          "subheading": "",
+          "product_count": 4,
+          "background": "background-default"
+        }
+      },
+      "dynamic-image-with-text-overlay": {
+        "type": "dynamic-image-with-text-overlay",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Tofino_B.C.-02.jpg",
+          "text_layout": "center",
+          "title": "West Coast Style. West Coast Made.",
+          "subheading": "",
+          "text": "<p><strong>When you buy from a small company, an actual person does a little happy dance!<\/strong><\/p>",
+          "custom_color": false,
+          "text_color": "#2f5d62",
+          "link": "",
+          "link_text": "",
+          "overlay_color": "#ffffff",
+          "overlay_opacity": 64
+        }
+      },
+      "1598912410891": {
+        "type": "dynamic-rich-text",
+        "settings": {
+          "title": "West Coast Style. West Coast Made.",
+          "subheading": "When you buy from a small company, an actual person does a little happy dance!",
+          "text": "<p>BC Makers Collective is a curated online shop for west-coast home furnishings, created by local artisans, shipped directly from them, to you.<\/p>",
+          "text_layout": "center",
+          "background": "background-default"
+        }
+      },
+      "1610405948a96db83e": {
+        "type": "dynamic-featured-collection",
+        "settings": {
+          "title": "Jenna Jones Art",
+          "subheading": "",
+          "collection": "jenna-jones-art",
+          "product_count": 4
+        }
+      },
+      "161040611260f806c1": {
+        "type": "dynamic-slideshow",
+        "blocks": {
+          "1fd1fc47-1392-46b4-ad7a-5693fc2911e8": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2596E9D6-493C-4EE5-BE5D-BC70602D4548.jpg",
+              "text_layout": "default-right",
+              "custom_color": false,
+              "text_color": "#ffffff",
+              "title": "Maughan Made",
+              "text": "Each Maughan Made piece is sparked by a fresh perspective and quickly transforms into a functional and inspired creation that can also be appreciated for its beauty alone. Trained in a classic, hand-tool focussed style, Jake Maughan creates furniture designed to be passed down and enjoyed for generations.",
+              "link": "shopify:\/\/collections\/maughan-made-furniture",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          },
+          "88296b07-fdaf-441c-8538-1cacb10e1df0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Eileen_Kiyonaga-Hoarfrost-1.jpg",
+              "text_layout": "default-right",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Eileen Kiyonaga Artworks",
+              "text": "Eileen is a multidisciplinary artist that uses wood and watercolour to communicate the fluid lines and natural geometries she finds so appealing in nature.",
+              "link": "shopify:\/\/collections\/eileen-kiyonaga-artworks",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          },
+          "2ec6b6e3-067b-48ae-afd7-793fd7f1bb47": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ebonized_bowl_3_6d32c65d-e5b6-4aa3-8447-bbb15b4f0976.jpg",
+              "text_layout": "default-right",
+              "custom_color": false,
+              "text_color": "#ffffff",
+              "title": "Loose Leaf Atlas",
+              "text": "Loose leaf atlas was founded on the idea to source high quality wood waste from backwoods logging sites to urban streets. With an intention to eventually work with the material from site to studio, Kait currently also sources pre-dried and cut wood from local and ethical sources.",
+              "link": "shopify:\/\/collections\/loose-leaf-atlast-wood-objects",
+              "link_text": "View collection",
+              "button_style": "secondary"
+            }
+          },
+          "0665bdc9-e72b-4fb3-9be1-d39c5841f2cd": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D123B65A-C45A-41FA-A9F0-452FEBB094E5.jpg",
+              "text_layout": "default-right",
+              "custom_color": false,
+              "text_color": "#ffffff",
+              "title": "Michelle Card Design Co.",
+              "text": "Whether you’re looking for cotton tea towels, or handmade woven goods such as coasters, placemats or baskets - Michelle Card Design Co. does it all!",
+              "link": "shopify:\/\/collections\/michelle-card-design-co-woven-goods",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          },
+          "467727df-cb55-444e-84e4-9433d955f9f1": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Bearing_Woodwork-Plant_Stands-2.jpg",
+              "text_layout": "default-right",
+              "custom_color": false,
+              "text_color": "#ffffff",
+              "title": "Cordova Woodwork",
+              "text": "Focusing on traditional exposed and seamless joinery, all pieces display their integrity and elegance through fine details. Subtle curves are added to classic works to deliver a refreshing feel to solid wood furniture.",
+              "link": "shopify:\/\/collections\/bearing-woodwork-furniture",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          },
+          "161040611260f806c1-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/D3186608-6227-4C66-BA48-990A18DDA279.jpg",
+              "text_layout": "default-right",
+              "custom_color": false,
+              "text_color": "#ffffff",
+              "title": "Caliper Studio",
+              "text": "The studio creates architecturally inspired design, and focuses on spatial impact through wood centred pieces that can act as both furniture and art.",
+              "link": "shopify:\/\/collections\/caliper-studio",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          }
+        },
+        "block_order": [
+          "1fd1fc47-1392-46b4-ad7a-5693fc2911e8",
+          "88296b07-fdaf-441c-8538-1cacb10e1df0",
+          "2ec6b6e3-067b-48ae-afd7-793fd7f1bb47",
+          "0665bdc9-e72b-4fb3-9be1-d39c5841f2cd",
+          "467727df-cb55-444e-84e4-9433d955f9f1",
+          "161040611260f806c1-0"
+        ],
+        "settings": {
+          "should_autoplay": false,
+          "slide_autoplay": 5
+        }
+      },
+      "161040839588bdaf6b": {
+        "type": "dynamic-image-with-text-overlay",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Hazy_Pottery-36.jpg",
+          "text_layout": "center",
+          "title": "Hazy Pottery",
+          "subheading": "CERAMICS",
+          "text": "<p>Add a touch of handmade uniqueness to your kitchen. Available in 10 colours so that you can truly find the right colour match for your home.<\/p>",
+          "custom_color": true,
+          "text_color": "#ffffff",
+          "link": "shopify:\/\/collections\/hazy-pottery",
+          "link_text": "View Collection",
+          "overlay_color": "#000000",
+          "overlay_opacity": 30
+        }
+      },
+      "161109098466a17ab0": {
+        "type": "dynamic-blog-posts",
+        "settings": {
+          "title": "The Goods",
+          "subheading": "Check out our blog to receive the latest",
+          "blog": "news",
+          "post_limit": 3,
+          "show_date": true,
+          "show_author": true,
+          "show_comments_count": true,
+          "show_excerpt": true,
+          "show_tags": true,
+          "read_more_button_style": "secondary",
+          "background": "background-default"
+        }
+      },
+      "1611091008bb78698a": {
+        "type": "dynamic-rich-text",
+        "settings": {
+          "title": "",
+          "subheading": "",
+          "text": "<p>We would like to acknowledge that we gratefully reside in the unceded territory of Sḵwx̱wú7mesh and the other 197 First Nations traditional and ancestral unceded territories in British Columbia.<\/p>",
+          "text_layout": "center",
+          "background": "background-default"
+        }
+      },
+      "161695625153aa0571": {
+        "type": "dynamic-testimonials",
+        "blocks": {
+          "15381ad0-673d-4ee1-bcf0-2788106daef5": {
+            "type": "testimonial",
+            "settings": {
+              "title": "Tara",
+              "link": "",
+              "caption": "“I recently purchased tea towels from Lin textiles through this site and had a great experience! I received the items on time and as described. The towels arrived in attractive packaging. They are functional, look and feel great!”",
+              "style": "standard",
+              "product_handle": ""
+            }
+          },
+          "161695625153aa0571-1": {
+            "type": "testimonial",
+            "settings": {
+              "title": "Tajrin",
+              "link": "",
+              "caption": "I received a beautiful print from BC Makers Collective. The print was high quality and I can’t wait to frame it in my home!\n\nShipping was fast and the company was very quick to respond to my questions! Highly recommend and I look forward to ordering again!",
+              "style": "facebook",
+              "product_handle": ""
+            }
+          },
+          "0663118f-751f-4a56-85dd-31a64b151587": {
+            "type": "testimonial",
+            "settings": {
+              "title": "Tom",
+              "link": "",
+              "caption": "“Great online store with a variety of home goods and decor all from local makers. The candleholders, tea towel, and serving board I got arrived quickly and the quality is amazing. Great website for home goods & decor for your own place or for gifts. Will definitely visit this online store again!“",
+              "style": "standard",
+              "product_handle": ""
+            }
+          }
+        },
+        "block_order": [
+          "15381ad0-673d-4ee1-bcf0-2788106daef5",
+          "161695625153aa0571-1",
+          "0663118f-751f-4a56-85dd-31a64b151587"
+        ],
+        "settings": {
+          "title": "Testimonials",
+          "subheading": "What the people say",
+          "background": "background-alternate"
+        }
+      },
+      "16191313430005f0ba": {
+        "type": "dynamic-featured-collection",
+        "disabled": true,
+        "settings": {
+          "title": "Dougherty Glassworks",
+          "subheading": "",
+          "collection": "dougherty-glassworks",
+          "product_count": 4
+        }
+      },
+      "1626897046389d9322": {
+        "type": "dynamic-featured-collection",
+        "settings": {
+          "title": "Rachael Ashe",
+          "subheading": "NEW PRODUCTS THIS MONTH!",
+          "collection": "rachael-ashe",
+          "product_count": 4
+        }
+      },
+      "1626897107653ad331": {
+        "type": "dynamic-featured-product",
+        "settings": {
+          "product_handle": "floral-frame-weave",
+          "background": "background-default",
+          "description": "<p>Bring a mix of modern and retro into your home with this floral frame weave.<\/p><p>This frame weave is reversible, with the opposite floral pattern showing on the other side. You can also choose to hang your frame weave, or simply rest it on a shelf. <\/p><p>16”W x 20”L | Contact directly for custom sizes and colours<\/p><p>*Made to Order - please allow 3 weeks for total turnaround time<\/p>",
+          "show_vendor": true,
+          "show_social_sharing_buttons": false,
+          "enable_sticky_details": false,
+          "product_gallery_layout_desktop": "slideshow",
+          "product_gallery_position_desktop": "left",
+          "product_gallery_position_mobile": "below",
+          "enable_image_zoom": true,
+          "gallery_video_autoplay": true,
+          "gallery_video_looping": true,
+          "options_position": "below",
+          "quantity_picker_style": "integrated-with-button",
+          "show_payment_button": true,
+          "enable_cart_redirect": false
+        }
+      },
+      "16292379838a3a53e6": {
+        "type": "dynamic-list-collections",
+        "blocks": {
+          "16292379838a3a53e6-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "art"
+            }
+          },
+          "16292379838a3a53e6-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "ceramics",
+              "image": "shopify:\/\/shop_images\/HULI_collection-web_jpg.jpg"
+            }
+          },
+          "16292379838a3a53e6-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "furniture"
+            }
+          },
+          "61dac0be-e1e3-446f-95fa-53986b3b4e3e": {
+            "type": "collection",
+            "settings": {
+              "collection": "home-decor"
+            }
+          },
+          "61949821-4e6a-4c74-b005-bb55fd806790": {
+            "type": "collection",
+            "settings": {
+              "collection": "textiles"
+            }
+          }
+        },
+        "block_order": [
+          "16292379838a3a53e6-0",
+          "16292379838a3a53e6-1",
+          "16292379838a3a53e6-2",
+          "61dac0be-e1e3-446f-95fa-53986b3b4e3e",
+          "61949821-4e6a-4c74-b005-bb55fd806790"
+        ],
+        "settings": {
+          "title": "Collection list",
+          "subheading": "",
+          "show_descriptions": false
+        }
+      },
+      "1632164744e88c1ae8": {
+        "type": "dynamic-featured-product",
+        "settings": {
+          "product_handle": "mountain-progression-triptych",
+          "background": "background-default",
+          "description": "<p>The Mountain Progression Triptych is inspired by the calming feeling that you only get being surrounded by mountains. <\/p><p>The triptych is laser cut and engraved then stained by hand allowing the unique natural woodgrain to show through. Meaning each piece will be unique to you as colours and grain will vary slightly.<\/p><p>5” Dia | Set of 3 (Triptych)<\/p><p>3 Week Turnaround<\/p>",
+          "show_vendor": true,
+          "show_social_sharing_buttons": false,
+          "enable_sticky_details": false,
+          "product_gallery_layout_desktop": "slideshow",
+          "product_gallery_position_desktop": "left",
+          "product_gallery_position_mobile": "below",
+          "enable_image_zoom": true,
+          "gallery_video_autoplay": true,
+          "gallery_video_looping": true,
+          "options_position": "below",
+          "quantity_picker_style": "integrated-with-button",
+          "show_payment_button": true,
+          "enable_cart_redirect": false
+        }
+      },
+      "1632164964cbe59828": {
+        "type": "dynamic-image-with-text-overlay",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Folk_and_Fate-Boho_Throw_Blanket-1.jpg",
+          "text_layout": "center",
+          "title": "Folk + Fate",
+          "subheading": "Sustainable and eco-friendly, this design is made from 100% recycled cotton and is reversible. ",
+          "text": "<p>The boho throw is the perfect sidekick for all kinds of adventures, or as a beautiful addition to your living space. <\/p>",
+          "custom_color": true,
+          "text_color": "#ffffff",
+          "link": "shopify:\/\/products\/boho-throw-blanket",
+          "link_text": "View Product",
+          "overlay_color": "#000000",
+          "overlay_opacity": 6
+        }
+      },
+      "16345914548124da5c": {
+        "type": "dynamic-slideshow",
+        "blocks": {
+          "16345914548124da5c-1": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gaston_18x24_1.jpg",
+              "text_layout": "default-left",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Pacific Northwest Prints",
+              "text": "Find your next favourite local artist!",
+              "link": "shopify:\/\/collections\/pacific-northwest-prints",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          },
+          "16345914548124da5c-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Cindy_Chiang_Art-Bonfire_Heart-1.jpg",
+              "text_layout": "default-left",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Cindy Chiang Art",
+              "text": "Find your next favourite local artist!",
+              "link": "shopify:\/\/collections\/cindy-chiang-art",
+              "link_text": "View Collection!",
+              "button_style": "secondary"
+            }
+          },
+          "8adb1935-520e-44a6-b15f-e9cab5861b7c": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/AlpenglowPrints-Black_Tusk_2.jpg",
+              "text_layout": "default-left",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Alpenglow Prints",
+              "text": "Find your next favourite local artist!",
+              "link": "shopify:\/\/collections\/alpenglow-prints",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          },
+          "4197d9b8-494d-4ac0-98c2-9f76567d48e6": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/URBAN_EXPRESSION_-_Image_1.jpg",
+              "text_layout": "default-left",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Julia Di Sano",
+              "text": "Find your next favourite local artist!",
+              "link": "shopify:\/\/collections\/ebi-emporium-art",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          },
+          "39444f2c-6a9e-4fa6-b128-71a601ec308b": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Artmosphere-Somewhere_II.jpg",
+              "text_layout": "default-left",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Artmosphere",
+              "text": "Find your next favourite local artist!",
+              "link": "shopify:\/\/collections\/artmosphere",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          },
+          "52bc7170-9417-4a21-b0c1-9030ea6f47aa": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Trenova_Art-Moody_Lake_1.jpg",
+              "text_layout": "default-left",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Trenova Art",
+              "text": "Find your next favourite local artist!",
+              "link": "shopify:\/\/collections\/trenova-art",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          }
+        },
+        "block_order": [
+          "16345914548124da5c-1",
+          "16345914548124da5c-0",
+          "8adb1935-520e-44a6-b15f-e9cab5861b7c",
+          "4197d9b8-494d-4ac0-98c2-9f76567d48e6",
+          "39444f2c-6a9e-4fa6-b128-71a601ec308b",
+          "52bc7170-9417-4a21-b0c1-9030ea6f47aa"
+        ],
+        "settings": {
+          "should_autoplay": false,
+          "slide_autoplay": 4
+        }
+      },
+      "16345964559d175828": {
+        "type": "dynamic-featured-product",
+        "settings": {
+          "product_handle": "adanac-coffee-table",
+          "background": "background-default",
+          "description": "<p>*ONLY ONE DEMO MODEL IS AVAILABLE AT 25% OFF* <\/p><p>The Adanac coffee table is a contemporary execution of the groundbreaking forms of the Eames’. The table makes hardwoods flow in a soft manner only handcraft can produce. Mechanically connected, the top floats above the elegantly curved legs. The result is one that captures the versatility of the wood. Shown in white oak.<\/p><p>18”H x 25”D x 50”L<\/p>",
+          "show_vendor": true,
+          "show_social_sharing_buttons": false,
+          "enable_sticky_details": false,
+          "product_gallery_layout_desktop": "slideshow",
+          "product_gallery_position_desktop": "left",
+          "product_gallery_position_mobile": "below",
+          "enable_image_zoom": true,
+          "gallery_video_autoplay": true,
+          "gallery_video_looping": true,
+          "options_position": "below",
+          "quantity_picker_style": "integrated-with-button",
+          "show_payment_button": true,
+          "enable_cart_redirect": false
+        }
+      },
+      "1634598226c0388120": {
+        "type": "dynamic-featured-collection",
+        "settings": {
+          "title": "Paige Coull",
+          "subheading": "",
+          "collection": "blackbird-studio",
+          "product_count": 6
+        }
+      },
+      "1634598580c6d8f960": {
+        "type": "dynamic-image-with-text-overlay",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/13E17DE1-8ECC-47D3-882C-BBAA183E3D2C.jpg",
+          "text_layout": "center",
+          "title": "Exshaw Quilts",
+          "subheading": "hand stitched, naturally dyed cotton quilted goods",
+          "text": "<p>Kimberly Exshaw’s focus is to not only create cherished heirloom pieces that provide comfort, warmth + beauty for generations to come but to also bring folklore back to the modern world.<\/p>",
+          "custom_color": true,
+          "text_color": "#ffffff",
+          "link": "shopify:\/\/collections\/exshaw-quilts",
+          "link_text": "View Collection",
+          "overlay_color": "#000000",
+          "overlay_opacity": 44
+        }
+      },
+      "163459882260fd0d68": {
+        "type": "dynamic-featured-collection",
+        "settings": {
+          "title": "Blackstrap Cloth & Co.",
+          "subheading": "",
+          "collection": "blackstrap-cloth-co",
+          "product_count": 4
+        }
+      },
+      "163459990175cefeab": {
+        "type": "dynamic-featured-collection",
+        "settings": {
+          "title": "Magda Johnson Fine Art",
+          "subheading": "NEW PRODUCTS THIS MONTH!",
+          "collection": "magda-johnson-fine-art",
+          "product_count": 4
+        }
+      },
+      "1634600103df012823": {
+        "type": "dynamic-slideshow",
+        "blocks": {
+          "1634600103df012823-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/BC_Makers_Collective-Photoshoot-76_2.jpg",
+              "text_layout": "default-right",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Whimsy Daisy Designs",
+              "text": "Handmade products that are thoughtfully designed and crafted using high quality and locally sourced materials and will add a unique touch to your space.",
+              "link": "shopify:\/\/collections\/whimsy-daisy-designs",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          },
+          "1634600103df012823-1": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/C18A2691-3B9D-4164-859F-C09FECE14878.jpg",
+              "text_layout": "default-right",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Studio 501 Handmade",
+              "text": "This candle collection was designed to compliment the Maker’s love of nature, flowers and handmade products.",
+              "link": "shopify:\/\/collections\/studio-501-handmade-candles",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          },
+          "68e96be4-1389-48a0-bdbf-5dc5d5386639": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Lower_Mainland_Helicopter-07.jpg",
+              "text_layout": "default-right",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Maylies Lang",
+              "text": "Maylies has two photo collections available for print; Aerial and Canadian Landscape. With various sizes, you’re sure to find a piece to fit that spot on your wall!",
+              "link": "shopify:\/\/collections\/maylies-lang-photographer-aerial-collection",
+              "link_text": "View collection",
+              "button_style": "secondary"
+            }
+          },
+          "ff393024-9588-4c7f-a198-0126dc4dbadf": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Twice_Turned-Ceramic_Bowl_with_Cherry_Wood_Lid-1.jpg",
+              "text_layout": "default-right",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Twice Turned",
+              "text": "Working as a husband and wife team, Lori + Grant combine their skills of woodworking and ceramics to create objects of beauty.",
+              "link": "shopify:\/\/collections\/twice-turned-ceramics-woodworking",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          },
+          "461d9cec-7ea4-4b48-b7d1-21c5703e0234": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Vanessa_Zilkie-Corona_Del_Mar-1_50949fb7-bffd-4b52-bd45-0def3bf52011.jpg",
+              "text_layout": "default-right",
+              "custom_color": false,
+              "text_color": "#2f5d62",
+              "title": "Vanessa Zilkie Studio",
+              "text": "Art inspired by the beautiful coastal mountains that surround us here in BC!",
+              "link": "shopify:\/\/collections\/vanessa-zilkie-studio-art",
+              "link_text": "View Collection",
+              "button_style": "secondary"
+            }
+          }
+        },
+        "block_order": [
+          "1634600103df012823-0",
+          "1634600103df012823-1",
+          "68e96be4-1389-48a0-bdbf-5dc5d5386639",
+          "ff393024-9588-4c7f-a198-0126dc4dbadf",
+          "461d9cec-7ea4-4b48-b7d1-21c5703e0234"
+        ],
+        "settings": {
+          "should_autoplay": false,
+          "slide_autoplay": 5
+        }
+      },
+      "16346015886eec5888": {
+        "type": "dynamic-featured-collection",
+        "settings": {
+          "title": "Sitkas + Seas",
+          "subheading": "",
+          "collection": "sitkas-seas-prints",
+          "product_count": 4
+        }
+      },
+      "1637191230d6a08cfb": {
+        "type": "dynamic-featured-collection",
+        "settings": {
+          "title": "Rebecca Santry",
+          "subheading": "NEW PRODUCTS THIS MONTH!",
+          "collection": "rebecca-santry",
+          "product_count": 2
+        }
+      }
+    },
+    "content_for_index": [
+      "1519077071323",
+      "1598912410891",
+      "1596762316592",
+      "16292379838a3a53e6",
+      "161040839588bdaf6b",
+      "1626897046389d9322",
+      "161040611260f806c1",
+      "163459990175cefeab",
+      "1634598580c6d8f960",
+      "1632164964cbe59828",
+      "1634598226c0388120",
+      "163459882260fd0d68",
+      "1632164744e88c1ae8",
+      "1610405948a96db83e",
+      "16191313430005f0ba",
+      "1626897107653ad331",
+      "1637191230d6a08cfb",
+      "16345964559d175828",
+      "16346015886eec5888",
+      "16345914548124da5c",
+      "1634600103df012823",
+      "161109098466a17ab0",
+      "1611091008bb78698a",
+      "161695625153aa0571"
+    ]
+  },
+  "presets": {
+    "Natural": {
+      "color_background": "#ffffff",
+      "color_headings": "#27211c",
+      "color_text": "#27211c",
+      "color_links": "#794920",
+      "color_accent_primary": "#a06a3b",
+      "color_accent_secondary": "#794920",
+      "color_sales_background": "#a06a3b",
+      "color_sales_text": "#fff",
+      "color_button_primary": "#fff",
+      "color_button_secondary": "#fff",
+      "type_primary": "neue_swift_n3",
+      "type_secondary": "source_sans_pro_n3",
+      "type_button": "primary",
+      "embellishment_edges": "soft_round",
+      "embellishment_animation_curve": "ease-out-back",
+      "embellishment_icons": "thin",
+      "embellishment_pattern": "crosses",
+      "embellishment_custom_pattern": "",
+      "product_gallery_placement": "left",
+      "product_grid_image_style": "natural",
+      "product_show_share_buttons": true,
+      "enable_product_quickshop": false,
+      "qs_show_payment_button": true,
+      "enable_search_articles_pages": true,
+      "sections": {
+        "static-header": {
+          "type": "static-header",
+          "settings": {
+            "sticky_header": false,
+            "main_menu": "main-menu",
+            "navigation_layout": "expanded"
+          }
+        },
+        "static-footer": {
+          "type": "static-footer",
+          "blocks": {
+            "1518649856176": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu"
+              }
+            },
+            "static-footer-0": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "1517438479354": {
+              "type": "social_media",
+              "settings": {
+              }
+            },
+            "static-footer-1": {
+              "type": "newsletter",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1518649856176",
+            "static-footer-0",
+            "1517438479354",
+            "static-footer-1"
+          ],
+          "settings": {
+            "payment_icons": true
+          }
+        },
+        "1519165187897": {
+          "type": "dynamic-testimonials",
+          "blocks": {
+            "1519165187897-0": {
+              "type": "testimonial",
+              "settings": {
+                "link": "",
+                "style": "facebook"
+              }
+            },
+            "1519165187897-2": {
+              "type": "testimonial",
+              "settings": {
+                "link": "",
+                "style": "standard"
+              }
+            },
+            "1519165187897-1": {
+              "type": "testimonial",
+              "settings": {
+                "link": "",
+                "style": "twitter"
+              }
+            }
+          },
+          "block_order": [
+            "1519165187897-0",
+            "1519165187897-2",
+            "1519165187897-1"
+          ],
+          "settings": {
+            "background": "background-default"
+          }
+        },
+        "1517872405576": {
+          "type": "dynamic-featured-product",
+          "settings": {
+            "background": "background-default",
+            "show_payment_button": true
+          }
+        },
+        "1517439547264": {
+          "type": "dynamic-blog-posts",
+          "settings": {
+            "post_limit": 3,
+            "show_date": false,
+            "show_author": false,
+            "show_comments_count": false,
+            "show_excerpt": true,
+            "show_tags": false,
+            "read_more_button_style": "secondary",
+            "background": "background-default"
+          }
+        },
+        "static-product-pages": {
+          "type": "static-product-pages",
+          "settings": {
+            "show_payment_button": true
+          }
+        },
+        "static-blog": {
+          "type": "static-blog",
+          "settings": {
+            "show_rss_link": false,
+            "show_date": true,
+            "show_author": false,
+            "show_comments_count": true,
+            "show_excerpt": true,
+            "show_tags": true,
+            "posts_per_page": 6
+          }
+        },
+        "1517608432607": {
+          "type": "dynamic-image-with-text-overlay",
+          "settings": {
+            "text_layout": "right",
+            "custom_color": true,
+            "text_color": "#0f2229",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 15
+          }
+        },
+        "1519077071323": {
+          "type": "dynamic-slideshow",
+          "blocks": {
+            "1519171780922": {
+              "type": "slide",
+              "settings": {
+                "text_layout": "full-width-left",
+                "button_style": "secondary"
+              }
+            },
+            "1519077321446": {
+              "type": "slide",
+              "settings": {
+                "text_layout": "full-width-left",
+                "button_style": "secondary"
+              }
+            },
+            "1519077071323-1": {
+              "type": "slide",
+              "settings": {
+                "text_layout": "full-width-left",
+                "button_style": "secondary"
+              }
+            },
+            "1519077071323-0": {
+              "type": "slide",
+              "settings": {
+                "text_layout": "full-width-left",
+                "button_style": "secondary"
+              }
+            }
+          },
+          "block_order": [
+            "1519171780922",
+            "1519077321446",
+            "1519077071323-1",
+            "1519077071323-0"
+          ],
+          "settings": {
+            "should_autoplay": false,
+            "slide_autoplay": 5
+          }
+        },
+        "1519158867670": {
+          "type": "dynamic-video-with-text",
+          "settings": {
+            "text_layout": "top",
+            "aspect_ratio": "aspect-ratio-16-by-9",
+            "button_style": "secondary",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 5
+          }
+        },
+        "1519158842526": {
+          "type": "dynamic-twitter-feed",
+          "settings": {
+            "title": "Twitter",
+            "retweets": false,
+            "images": false,
+            "background": "background-default"
+          }
+        },
+        "static-testimonials": {
+          "type": "static-testimonials",
+          "blocks": {
+            "1519258233146": {
+              "type": "testimonial",
+              "settings": {
+                "style": "facebook"
+              }
+            },
+            "1519258254789": {
+              "type": "testimonial",
+              "settings": {
+                "style": "standard"
+              }
+            },
+            "1519258277267": {
+              "type": "testimonial",
+              "settings": {
+                "style": "twitter"
+              }
+            }
+          },
+          "block_order": [
+            "1519258233146",
+            "1519258254789",
+            "1519258277267"
+          ],
+          "settings": {
+            "background": "background-default"
+          }
+        },
+        "static-collection-pages": {
+          "type": "static-collection-pages",
+          "settings": {
+            "show_collection_image": false,
+            "sort_by": false,
+            "filter_style": "tags"
+          }
+        },
+        "1517607498124": {
+          "type": "dynamic-list-collections",
+          "blocks": {
+            "1518644999105": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "1517607498124-0": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "1517607498124-1": {
+              "type": "collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1518644999105",
+            "1517607498124-0",
+            "1517607498124-1"
+          ],
+          "settings": {
+            "show_descriptions": true
+          }
+        },
+        "static-list-collections": {
+          "type": "static-list-collections",
+          "settings": {
+            "show_descriptions": true,
+            "collections_per_page": 8
+          }
+        },
+        "static-article": {
+          "type": "static-article",
+          "settings": {
+            "show_date": true,
+            "show_author": true,
+            "show_tags": true,
+            "show_share_buttons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "1519077071323",
+        "1517607498124",
+        "1517872405576",
+        "1519158867670",
+        "1519165187897",
+        "1517608432607",
+        "1517439547264",
+        "1519158842526"
+      ]
+    },
+    "Solid": {
+      "color_background": "#f6f6f6",
+      "color_headings": "#2b3e55",
+      "color_text": "#2b3e55",
+      "color_links": "#8c7345",
+      "color_accent_primary": "#2b3e55",
+      "color_accent_secondary": "#8c7345",
+      "color_sales_background": "#8c7345",
+      "color_sales_text": "#fff",
+      "color_button_primary": "#fff",
+      "color_button_secondary": "#fff",
+      "type_primary": "ibm_plex_sans_n3",
+      "type_secondary": "ibm_plex_sans_n3",
+      "embellishment_edges": "none",
+      "embellishment_animation_curve": "ease",
+      "embellishment_icons": "thin",
+      "embellishment_pattern": "angled_lines",
+      "product_grid_image_style": "natural",
+      "sections": {
+        "pxs-announcement-bar": {
+          "type": "pxs-announcement-bar",
+          "settings": {
+            "announcement_color": "#ffffff",
+            "announcement_background": "#937949"
+          }
+        },
+        "static-header": {
+          "type": "static-header",
+          "settings": {
+            "sticky_header": false,
+            "main_menu": "main-menu",
+            "navigation_layout": "drawer"
+          }
+        },
+        "static-footer": {
+          "type": "static-footer",
+          "blocks": {
+            "static-footer-1": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu"
+              }
+            },
+            "static-footer-2": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "static-footer-3": {
+              "type": "rich_text",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "static-footer-1",
+            "static-footer-2",
+            "static-footer-3"
+          ],
+          "settings": {
+            "payment_icons": false
+          }
+        },
+        "static-list-collections": {
+          "type": "static-list-collections",
+          "settings": {
+            "show_descriptions": false,
+            "collections_per_page": 8
+          }
+        },
+        "static-article": {
+          "type": "static-article",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_tags": false,
+            "show_share_buttons": true
+          }
+        },
+        "static-product-recommendations": {
+          "type": "static-product-recommendations",
+          "settings": {
+            "product_count": 3,
+            "background": "background-default"
+          }
+        },
+        "static-product-pages": {
+          "type": "static-product-pages",
+          "settings": {
+          }
+        },
+        "static-blog": {
+          "type": "static-blog",
+          "settings": {
+            "show_rss_link": true,
+            "show_date": true,
+            "show_author": true,
+            "show_comments_count": true,
+            "show_excerpt": true,
+            "show_tags": true,
+            "posts_per_page": 3
+          }
+        },
+        "static-testimonials": {
+          "type": "static-testimonials",
+          "settings": {
+            "background": "background-alternate"
+          }
+        },
+        "static-collection-pages": {
+          "type": "static-collection-pages",
+          "settings": {
+            "show_collection_image": false,
+            "sort_by": false,
+            "filter_style": "groups"
+          }
+        },
+        "static-story": {
+          "type": "static-story",
+          "blocks": {
+            "static-story-1": {
+              "type": "images-with-text",
+              "settings": {
+              }
+            },
+            "static-story-2": {
+              "type": "features-list",
+              "settings": {
+              }
+            },
+            "static-story-3": {
+              "type": "video-with-text",
+              "settings": {
+                "text_layout": "top",
+                "aspect_ratio": "aspect-ratio-16-by-9"
+              }
+            },
+            "static-story-4": {
+              "type": "gallery",
+              "settings": {
+              }
+            },
+            "static-story-5": {
+              "type": "share",
+              "settings": {
+                "custom_color": true,
+                "text_color": "#ffffff",
+                "overlay_color": "#000000",
+                "overlay_opacity": 35
+              }
+            }
+          },
+          "block_order": [
+            "static-story-1",
+            "static-story-2",
+            "static-story-3",
+            "static-story-4",
+            "static-story-5"
+          ],
+          "settings": {
+          }
+        },
+        "dynamic-newsletter": {
+          "type": "dynamic-newsletter",
+          "settings": {
+            "enable_background": false
+          }
+        },
+        "dynamic-list-collections": {
+          "type": "dynamic-list-collections",
+          "blocks": {
+            "dynamic-list-collections-1": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "dynamic-list-collections-2": {
+              "type": "collection",
+              "settings": {
+              }
+            },
+            "dynamic-list-collections-3": {
+              "type": "collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "dynamic-list-collections-1",
+            "dynamic-list-collections-2",
+            "dynamic-list-collections-3"
+          ],
+          "settings": {
+            "title": "Collections",
+            "show_descriptions": false
+          }
+        },
+        "dynamic-testimonials": {
+          "type": "dynamic-testimonials",
+          "blocks": {
+            "dynamic-testimonial-1": {
+              "type": "testimonial",
+              "settings": {
+                "title": "@username",
+                "caption": "Showcase up to three testimonials to build trust with potential customers.",
+                "style": "twitter"
+              }
+            },
+            "dynamic-testimonial-2": {
+              "type": "testimonial",
+              "settings": {
+                "title": "Name",
+                "caption": "Showcase up to three testimonials to build trust with potential customers.",
+                "style": "facebook"
+              }
+            },
+            "dynamic-testimonial-3": {
+              "type": "testimonial",
+              "settings": {
+                "title": "Name",
+                "caption": "Showcase up to three testimonials to build trust with potential customers."
+              }
+            }
+          },
+          "block_order": [
+            "dynamic-testimonial-1",
+            "dynamic-testimonial-2",
+            "dynamic-testimonial-3"
+          ],
+          "settings": {
+            "background": "background-alternate"
+          }
+        },
+        "dynamic-featured-product": {
+          "type": "dynamic-featured-product",
+          "settings": {
+          }
+        },
+        "dynamic-slideshow": {
+          "type": "dynamic-slideshow",
+          "blocks": {
+            "dynamic-slideshow-0": {
+              "type": "slide",
+              "settings": {
+                "text_layout": "full-width-left",
+                "button_style": "secondary"
+              }
+            }
+          },
+          "block_order": [
+            "dynamic-slideshow-0"
+          ],
+          "settings": {
+            "should_autoplay": false,
+            "slide_autoplay": 5
+          }
+        },
+        "dynamic-twitter-feed": {
+          "type": "dynamic-twitter-feed",
+          "settings": {
+            "background": "background-alternate"
+          }
+        },
+        "dynamic-blog-posts": {
+          "type": "dynamic-blog-posts",
+          "settings": {
+            "post_limit": 3,
+            "show_date": true,
+            "show_author": true,
+            "show_comments_count": true,
+            "show_excerpt": true,
+            "show_tags": true,
+            "read_more_button_style": "secondary",
+            "background": "background-alternate"
+          }
+        },
+        "dynamic-featured-collection": {
+          "type": "dynamic-featured-collection",
+          "settings": {
+            "product_count": 3
+          }
+        }
+      },
+      "content_for_index": [
+        "dynamic-slideshow",
+        "dynamic-list-collections",
+        "dynamic-testimonials",
+        "dynamic-featured-product",
+        "dynamic-twitter-feed",
+        "dynamic-featured-collection",
+        "dynamic-blog-posts",
+        "dynamic-newsletter"
+      ]
+    },
+    "Plush": {
+      "color_background": "#fff",
+      "color_headings": "#5319a7",
+      "color_text": "#7c708b",
+      "color_links": "#e1285a",
+      "color_accent_primary": "#5319a7",
+      "color_accent_secondary": "#e1285a",
+      "color_sales_background": "#e1285a",
+      "color_sales_text": "#fff",
+      "color_button_primary": "#fff",
+      "color_button_secondary": "#fff",
+      "type_primary": "ubuntu_n4",
+      "type_secondary": "ubuntu_n4",
+      "embellishment_pattern": "triangles",
+      "product_gallery_position_desktop": "right",
+      "product_grid_image_style": "natural",
+      "sections": {
+        "pxs-announcement-bar": {
+          "type": "pxs-announcement-bar",
+          "settings": {
+            "announcement_color": "#ffffff",
+            "announcement_background": "#e1285a"
+          }
+        },
+        "static-header": {
+          "type": "static-header",
+          "settings": {
+            "sticky_header": true,
+            "main_menu": "main-menu",
+            "navigation_layout": "drawer"
+          }
+        },
+        "static-list-collections": {
+          "type": "static-list-collections",
+          "settings": {
+            "show_descriptions": false,
+            "collections_per_page": 8
+          }
+        },
+        "static-article": {
+          "type": "static-article",
+          "settings": {
+            "show_date": true,
+            "show_author": true,
+            "show_tags": true,
+            "show_share_buttons": true
+          }
+        },
+        "static-product-recommendations": {
+          "type": "static-product-recommendations",
+          "settings": {
+            "product_count": 3,
+            "background": "background-alternate"
+          }
+        },
+        "static-footer": {
+          "type": "static-footer",
+          "blocks": {
+            "static-footer-1": {
+              "type": "rich_text",
+              "settings": {
+              }
+            },
+            "static-footer-2": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu"
+              }
+            },
+            "static-footer-3": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "static-footer-1",
+            "static-footer-2",
+            "static-footer-3"
+          ],
+          "settings": {
+            "payment_icons": false
+          }
+        },
+        "static-story": {
+          "type": "static-story",
+          "blocks": {
+            "static-story-1": {
+              "type": "rich-text",
+              "settings": {
+                "text_layout": "center",
+                "background": "background-alternate"
+              }
+            },
+            "static-story-2": {
+              "type": "images-with-text",
+              "settings": {
+              }
+            },
+            "static-story-3": {
+              "type": "features-list",
+              "settings": {
+              }
+            },
+            "static-story-4": {
+              "type": "image-with-text-overlay",
+              "settings": {
+                "text_layout": "left",
+                "custom_color": true,
+                "text_color": "#ffffff"
+              }
+            }
+          },
+          "block_order": [
+            "static-story-1",
+            "static-story-2",
+            "static-story-3",
+            "static-story-4"
+          ],
+          "settings": {
+          }
+        },
+        "static-collection-pages": {
+          "type": "static-collection-pages",
+          "settings": {
+            "show_collection_image": false,
+            "sort_by": true,
+            "filter_style": "none"
+          }
+        },
+        "static-blog": {
+          "type": "static-blog",
+          "settings": {
+            "show_rss_link": true,
+            "show_date": true,
+            "show_author": true,
+            "show_comments_count": true,
+            "show_excerpt": true,
+            "show_tags": true,
+            "posts_per_page": 3
+          }
+        },
+        "dynamic-rich-text": {
+          "type": "dynamic-rich-text",
+          "settings": {
+            "text_layout": "center",
+            "background": "background-alternate"
+          }
+        },
+        "dynamic-twitter-feed": {
+          "type": "dynamic-twitter-feed",
+          "settings": {
+            "retweets": false,
+            "images": false,
+            "background": "background-alternate"
+          }
+        },
+        "dynamic-video-with-text": {
+          "type": "dynamic-video-with-text",
+          "settings": {
+            "text_layout": "top",
+            "aspect_ratio": "aspect-ratio-16-by-9",
+            "button_style": "secondary"
+          }
+        },
+        "dynamic-blog-posts": {
+          "type": "dynamic-blog-posts",
+          "settings": {
+            "post_limit": 3,
+            "show_date": true,
+            "show_author": true,
+            "show_comments_count": true,
+            "show_excerpt": true,
+            "show_tags": true,
+            "read_more_button_style": "secondary",
+            "background": "background-alternate"
+          }
+        },
+        "dynamic-testimonials": {
+          "type": "dynamic-testimonials",
+          "blocks": {
+            "dynamic-testimonial-1": {
+              "type": "testimonial",
+              "settings": {
+                "title": "@username",
+                "caption": "Showcase up to three testimonials to build trust with potential customers.",
+                "style": "twitter"
+              }
+            },
+            "dynamic-testimonial-2": {
+              "type": "testimonial",
+              "settings": {
+                "title": "Name",
+                "caption": "Showcase up to three testimonials to build trust with potential customers.",
+                "style": "facebook"
+              }
+            },
+            "dynamic-testimonial-3": {
+              "type": "testimonial",
+              "settings": {
+                "title": "Name",
+                "caption": "Showcase up to three testimonials to build trust with potential customers."
+              }
+            }
+          },
+          "block_order": [
+            "dynamic-testimonial-1",
+            "dynamic-testimonial-2",
+            "dynamic-testimonial-3"
+          ],
+          "settings": {
+          }
+        },
+        "dynamic-featured-product": {
+          "type": "dynamic-featured-product",
+          "settings": {
+          }
+        },
+        "dynamic-slideshow": {
+          "type": "dynamic-slideshow",
+          "blocks": {
+            "dynamic-slideshow-0": {
+              "type": "slide",
+              "settings": {
+                "text_layout": "default-right",
+                "button_style": "secondary"
+              }
+            }
+          },
+          "block_order": [
+            "dynamic-slideshow-0"
+          ],
+          "settings": {
+            "should_autoplay": false,
+            "slide_autoplay": 5
+          }
+        },
+        "dynamic-newsletter": {
+          "type": "dynamic-newsletter",
+          "settings": {
+            "background": "background-alternate",
+            "enable_background": true
+          }
+        },
+        "dynamic-featured-collection": {
+          "type": "dynamic-featured-collection",
+          "settings": {
+            "product_count": 6
+          }
+        }
+      },
+      "content_for_index": [
+        "dynamic-slideshow",
+        "dynamic-rich-text",
+        "dynamic-featured-collection",
+        "dynamic-testimonials",
+        "dynamic-featured-product",
+        "dynamic-blog-posts",
+        "dynamic-video-with-text",
+        "dynamic-twitter-feed",
+        "dynamic-newsletter"
+      ]
+    }
+  }
+}

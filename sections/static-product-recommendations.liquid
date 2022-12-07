@@ -1,0 +1,113 @@
+{%- capture theme_settings -%}
+  {{ settings.product_grid_image_style }}
+  {{ settings.product_grid_image_crop }}
+  {{ settings.enable_product_quickshop }}
+  {{ settings.qs_show_payment_button }}
+{%- endcapture -%}
+
+{%- assign product_limit = section.settings.product_count -%}
+
+{%- unless section.settings.show_product_recommendations -%}
+  {%- break -%}
+{%- endunless -%}
+
+<script
+  type="application/json"
+  data-section-id="{{ section.id }}"
+  data-section-type="static-product-recommendations"
+  data-section-data
+>
+  {
+    "settings": {
+      "limit": {{ product_limit }}
+    },
+    "productId": {{ product.id | json }}
+  }
+</script>
+
+<section
+  class="section-product-recommendations {{ section.settings.background }}"
+  data-html
+  data-product-recommendations
+>
+  {% if recommendations.products_count > 0 %}
+    <div class="productgrid" data-cards>
+      {% if section.settings.product_recommendations_heading != blank or section.settings.subheading != blank %}
+        <div class="grid-item-description">
+          {% if section.settings.subheading != blank %}
+            <h3 class="grid-description-subheading">
+              {{ section.settings.subheading | escape }}
+            </h3>
+          {% endif %}
+
+          {% if section.settings.product_recommendations_heading != blank %}
+            <h2 class="grid-description-heading">
+              {{ section.settings.product_recommendations_heading | escape }}
+            </h2>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {%- for item in recommendations.products limit: product_limit  -%}
+        {%
+          include 'product-item',
+          product: item,
+          is_interactive_card: true
+        %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</section>
+
+{% schema %}
+{
+  "name": "Recommended products",
+  "class": "section-static-product-recommendations",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_product_recommendations",
+      "label": "Show dynamic recommendations",
+      "info": "Dynamic recommendations change and improve with time. [Learn more](https://help.shopify.com/en/themes/development/recommended-products)",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "product_recommendations_heading",
+      "label": "Heading",
+      "default": "You may also like"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "range",
+      "id": "product_count",
+      "label": "Products",
+      "min": 2,
+      "max": 10,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "background",
+      "label": "Background",
+      "options": [
+        {
+          "value": "background-default",
+          "label": "Default"
+        },
+        {
+          "value": "background-alternate",
+          "label": "Alternate"
+        }
+      ],
+      "default": "background-default"
+    }
+  ]
+}
+
+{% endschema %}

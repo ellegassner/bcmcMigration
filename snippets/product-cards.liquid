@@ -1,0 +1,126 @@
+{% comment %}
+  Product cards
+
+  @param product {object}
+    Product to use
+
+  @param selected_image {object}
+
+  @param selected_variant {object}
+{% endcomment %}
+
+{% assign default_media = product.featured_media %}
+
+{% if selected_variant and selected_variant.featured_media %}
+  {% assign default_media = selected_variant.featured_media %}
+{% endif %}
+
+{% assign models = product.media | where: 'media_type', 'model' %}
+{% assign first_model = models | first %}
+<div
+  class="product-cards"
+  data-product-cards
+  data-product-models={{ models | json }}
+  data-default-model="{{ first_model.id }}"
+>
+  {% for media in product.media %}
+    <figure
+      class="
+        product-card-figure
+      "
+      {% if default_media.id == media.id %}data-product-card-media-selected{% endif %}
+      data-product-gallery-figure
+      data-media-type="{{ media.media_type }}"
+      data-cards-player-card="{{ media.id }}"
+    >
+      <div
+        class="product-media-wrapper"
+        data-cards-player-card-visual
+        data-object-fit-item
+      >
+        {% case media.media_type %}
+        {% when 'image' %}
+          {%- capture data_attr -%}
+            data-image-zoom="{{ media.id }}"
+          {%- endcapture -%}
+          {%
+            include 'rimg',
+            class: 'product-card-image',
+            img: media.preview_image,
+            size: '1250x',
+            attr: data_attr,
+            lazy: true
+          %}
+
+          {% if enable_product_gallery_zoom %}
+            <div class="product-image-zoom">
+              {% include 'icons', id: 'zoom' %}
+            </div>
+          {% endif %}
+        {% when 'model' %}
+          {{ media | model_viewer_tag: image_size: '1024x', reveal: 'interaction' , toggleable: true, interaction-prompt-threshold: 0 }}
+        {% when 'video' %}
+          {{ media | media_tag: image_size: '1024x' }}
+        {% when 'external_video' %}
+          {{ media | media_tag: image_size: '1024x' }}
+        {% else %}
+          {{ media | media_tag }}
+        {% endcase %}
+      </div>
+    </figure>
+  {% else %}
+    <figure
+      class="
+        product-card-figure
+      "
+      data-product-card-media-selected
+      data-cards-player-card
+    >
+      <div
+        class="product-media-wrapper"
+        data-cards-player-card-visual
+      >
+        {{ 'image'| placeholder_svg_tag: 'product-card-image placeholder-svg' }}
+      </div>
+    </figure>
+  {% endfor %}
+</div>
+
+{% if models.size > 0 %}
+  {% if default_media.media_type == 'model' %}
+    {% assign model = default_media %}
+  {% else %}
+    {% assign model = first_model %}
+  {% endif %}
+  <button
+    class="product-gallery--viewinyourspace product-cards--viewinyourspace"
+    data-shopify-xr
+    data-shopify-model3d-id="{{ model.id }}"
+    data-shopify-title="{{ product.title }}"
+    data-shopify-xr-hidden
+  >
+    {% include 'icons', id: 'ar' %}
+    {{ 'product.media.view_in_your_space' | t }}
+  </button>
+{% endif %}
+
+{% if product.media.size > 1 %}
+  <div class="product-cards-pagination" data-product-card-pagination>
+    {% for media in product.media %}
+      <div
+        class="product-cards-pagination-dot-wrapper"
+        data-product-card-pagination-id="{{ media.id }}"
+        data-product-card-pagination-index="{{ forloop.index0 }}"
+        data-product-card-pagination-selected="{%- if default_media.id == media.id -%}true{%- else -%}false{%- endif -%}"
+      >
+        <span class="product-cards-pagination-dot"></span>
+      </div>
+    {% endfor %}
+    <button
+      class="product-cards-pagination-next"
+      data-product-card-pagination-next
+    >
+      {% include 'icons', id: 'chevron' %}
+    </button>
+  </div>
+{% endif %}

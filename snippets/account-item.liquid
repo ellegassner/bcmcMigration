@@ -1,0 +1,88 @@
+{%- assign item_has_discounts = false -%}
+{%- if item.line_level_discount_allocations.size > 0 -%}
+  {%- assign item_has_discounts = true -%}
+{%- endif -%}
+<div class="account-item-row account-item">
+  <div class="account-item-column account-item-col-product account-item-product">
+    <div class="account-item-visual">
+      <figure class="account-item-figure">
+         {%
+          include 'rimg',
+          class: 'account-item-image',
+          img: item.image,
+          size: '100x',
+          lazy: false
+        %}
+      </figure>
+    </div>
+
+    <div class="account-item-details">
+      {% if item.vendor != blank %}
+        <span class="account-item-vendor">
+          <a href="{{ item.vendor | url_for_vendor }}">
+            {{ item.vendor }}
+          </a>
+        </span>
+      {% endif %}
+
+      <span class="account-item-product-title">
+        <a href="{{ item.variant.url }}">
+          {{ item.product.title }}
+        </a>
+      </span>
+
+      {% unless item.product.has_only_default_variant %}
+        <span class="account-item-variant-title">
+          {{ item.variant.options | join: ', ' }}
+        </span>
+      {% endunless %}
+
+      {%- if item_has_discounts -%}
+        <s class="account-item-price account-item-price-mobile account-item-original-price money">
+          {{ item.original_price }}
+        </s>
+      {%- endif -%}
+      <span class="account-item-price account-item-price-mobile money">
+        {{ item.final_price | money }}
+      </span>
+      {%- if item_has_discounts -%}
+        <ul class="account-item-discounts">
+          {% for discount_allocation in item.line_level_discount_allocations %}
+            <li>
+              {% include 'icons', id: 'sale_tag' %}
+              {{ discount_allocation.discount_application.title }}
+              <span class="account-item-discount-amount">(-<span class="money">{{ discount_allocation.amount | money }}</span>)</span>
+            </li>
+          {% endfor %}
+        </ul>
+      {%- endif -%}
+    </div>
+  </div>
+
+  <div class="account-item-column account-item-col-price">
+    {%- if item_has_discounts -%}
+        <s class="account-item-price account-item-original-price money">
+          {{ item.original_price}}
+        </s>
+      {%- endif -%}
+      <span class="account-item-price money">
+        {{ item.final_price | money }}
+      </span>
+  </div>
+
+  <div class="account-item-column account-item-col-quantity account-item-quantity">
+    <span class="account-item-quantity-label">{{ 'account.order.quantity' | t }}:</span>
+    {{ item.quantity }}
+  </div>
+
+  <div class="account-item-column account-item-col-total account-item-total">
+    {%- if item_has_discounts -%}
+      <s class="account-item-price account-item-original-price money">
+        {{ item.original_line_price | money }}
+      </s>
+    {%- endif -%}
+    <span class="account-item-price money">
+      {{ item.final_line_price | money }}
+    </span>
+  </div>
+</div>

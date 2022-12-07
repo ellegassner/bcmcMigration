@@ -1,0 +1,117 @@
+{% comment %}
+  Product mosaic
+
+  @param product {object}
+    Product to use
+
+  @param selected_media {object}
+
+  @param selected_variant {object}
+
+  @param is_quickshop {Bool}
+    Is the snippet being loaded in a QuickShop
+{% endcomment %}
+
+{% assign default_media = product.featured_media %}
+
+{% if selected_variant and selected_variant.featured_media %}
+  {% assign default_media = selected_variant.featured_media %}
+{% endif %}
+
+{% assign lazy = true %}
+{% if is_quickshop %}
+  {% assign lazy = false %}
+{% endif %}
+
+{% assign models = product.media | where: 'media_type', 'model' %}
+{% assign first_model = models | first %}
+
+<div
+  class="product-mosaic"
+  data-product-mosaic
+  data-product-models={{ models | json }}
+  data-product-viewport-parent
+>
+  <div class="product-mosaic-sizer"></div>
+  <div class="product-mosaic-gutter"></div>
+  <div
+    class="product-mosaic-viewport"
+    data-product-mosaic-viewport
+  >
+    {% for media in product.media %}
+      <figure
+        class="
+          product-mosaic-media-figure
+          {% if default_media.id == media.id %}
+            product-mosaic-media-selected
+          {% endif %}
+        "
+        data-media-type="{{ media.media_type }}"
+        data-product-mosaic-media="{{ media.id }}"
+        data-product-gallery-figure
+      >
+        <div
+          class="product-media-wrapper"
+          data-object-fit-item
+        >
+          {% case media.media_type %}
+          {% when 'image' %}
+            {%- capture data_attr -%}
+              data-image-zoom="{{ media.id }}"
+            {%- endcapture -%}
+            {%
+              include 'rimg',
+              class: 'product-mosaic-image',
+              img: media.preview_image,
+              size: '1250x',
+              attr: data_attr,
+              lazy: lazy
+            %}
+
+            {% if enable_product_gallery_zoom %}
+              <div class="product-image-zoom">
+                {% include 'icons', id: 'zoom' %}
+              </div>
+            {% endif %}
+          {% when 'model' %}
+            {{ media | model_viewer_tag: image_size: '1024x', reveal: 'interaction' , toggleable: true, interaction-prompt-threshold: 0 }}
+          {% when 'video' %}
+            {{ media | media_tag: image_size: '1024x' }}
+          {% when 'external_video' %}
+            {{ media | media_tag: image_size: '1024x' }}
+          {% else %}
+            {{ media | media_tag }}
+          {% endcase %}
+        </div>
+        {% if media.media_type == 'model' %}
+          {% assign model = media %}
+        {% else %}
+          {% assign model = first_model %}
+        {% endif %}
+        {% if model %}
+          <button
+            class="product-gallery--viewinyourspace"
+            data-shopify-xr
+            data-shopify-model3d-id="{{ model.id }}"
+            data-shopify-title="{{ product.title }}"
+            data-shopify-xr-hidden
+          >
+            {% include 'icons', id: 'ar' %}
+            {{ 'product.media.view_in_your_space' | t }}
+          </button>
+        {% endif %}
+      </figure>
+    {% else %}
+      <figure
+        class="
+          product-mosaic-media-figure
+          product-mosaic-media-selected
+        "
+      >
+        <div class="product-media-wrapper">
+          {{ 'image'| placeholder_svg_tag: 'product-mosaic-image placeholder-svg' }}
+        </div>
+      </figure>
+    {% endfor %}
+  </div>
+</div>

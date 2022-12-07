@@ -1,0 +1,108 @@
+<div
+  class="
+    cart-item-row
+    cart-item
+    {% if cart_mini %}cart-item-mini{% endif %}
+  "
+  data-cart-item="{{ item.key }}"
+  data-variant-id="{{ item.variant_id }}"
+>
+  {%- assign item_has_discounts = false -%}
+  {%- if item.line_level_discount_allocations.size > 0 -%}
+    {%- assign item_has_discounts = true -%}
+  {%- endif -%}
+  <div class="cart-item-column cart-item-col-product cart-item-product">
+    <div class="cart-item-column-slide" data-cart-item-column-slide>
+      <div class="cart-item-visual">
+        <figure class="cart-item-figure">
+          {% if item.image %}
+            {% assign lazy = true %}
+            {% if cart_ajax %}
+              {% assign lazy = false %}
+            {% endif %}
+            {%
+              include 'rimg',
+              class: 'cart-item-image',
+              img: item.image,
+              size: '100x',
+              alt: item.title,
+              lazy: lazy
+            %}
+          {% else %}
+            {{ 'image'| placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+        </figure>
+      </div>
+
+      <div class="cart-item-details">
+        {% if item.vendor != blank %}
+          <span class="cart-item-vendor"><a href="{{ item.vendor | url_for_vendor }}">{{ item.vendor }}</a></span>
+        {% endif %}
+
+        <span class="cart-item-product-title"><a href="{{ item.variant.url }}">{{ item.product.title }}</a></span>
+
+        {% unless item.product.has_only_default_variant %}
+          <span class="cart-item-variant-title">{{ item.variant.options | join: ', ' }}</span>
+        {% endunless %}
+
+        {%- if item_has_discounts -%}
+          <s class="cart-item-price cart-item-original-price money" data-cart-item-price>{{ item.original_price | money }}</s>
+        {%- endif -%}
+        <span class="cart-item-price money" data-cart-item-price>{{ item.final_price | money }}</span>
+        {%- if item_has_discounts -%}
+          <ul class="cart-item-discounts">
+            {% for discount_allocation in item.line_level_discount_allocations %}
+              <li>
+                {% include 'icons', id: 'sale_tag' %}
+                {{ discount_allocation.discount_application.title }}
+                (-<span class="money">{{ discount_allocation.amount | money }}</span>)
+              </li>
+            {% endfor %}
+          </ul>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+
+  <div class="cart-item-column cart-item-col-quantity cart-item-quantity">
+    <div class="cart-item-column-slide" data-cart-item-column-slide>
+      {% if cart_mini %}
+        {% assign quantity_id = '' %}
+      {% else %}
+        {% assign quantity_id = 'updates_' | append: item.id %}
+      {% endif %}
+
+      {%
+        include 'quantity',
+        id: quantity_id,
+        name: 'updates[]',
+        value: item.quantity
+      %}
+
+      <button class="cart-item-remove" type="button" data-cart-item-remove>
+        {%
+          include 'icons',
+          id: 'close'
+        %}
+      </button>
+    </div>
+  </div>
+
+  <div class="cart-item-column cart-item-col-total cart-item-total">
+    <div class="cart-item-column-slide" data-cart-item-column-slide>
+      <div>
+        {%- if item_has_discounts -%}
+          <s class="cart-item-original-price money" data-cart-item-total>
+            {{ item.original_line_price | money }}
+          </s>
+        {%- endif -%}
+        <span class="money" data-cart-item-total>
+          {{ item.final_line_price | money }}
+        </span>
+      </div>
+      <span class="cart-item-loader">
+        {% include 'icons', id: 'loader' %}
+      </span>
+    </div>
+  </div>
+</div>
