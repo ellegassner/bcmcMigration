@@ -1,0 +1,15 @@
+{
+    "name": "Page FAQ",
+    "sections": {
+        "main": {
+            "type": "static-faq"
+        },
+        "content": {
+            "type": "main-faq-page"
+        }
+    },
+    "order": [
+        "main",
+        "content"
+    ]
+}

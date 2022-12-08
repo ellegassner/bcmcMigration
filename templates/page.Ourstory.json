@@ -1,0 +1,15 @@
+{
+    "name": "Our Story",
+    "sections": {
+        "main": {
+            "type": "dynamic-image-with-text-overlay"
+        },
+        "content": {
+            "type": "main-ourstory-page"
+        }
+    },
+    "order": [
+        "main",
+        "content"
+    ]
+}
