@@ -1,0 +1,15 @@
+{
+    "name": "Contact Page",
+    "sections": {
+        "main": {
+            "type": "static-contact"
+        },
+        "content": {
+            "type": "main-contact-page"
+        }
+    },
+    "order": [
+        "main",
+        "content"
+    ]
+}
