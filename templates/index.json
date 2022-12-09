@@ -239,11 +239,26 @@
             "link_text": "View Collection",
             "button_style": "secondary"
           }
+        },
+        "4ffea7fe-3002-4a91-9bec-428576cc92e9": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ebonized_bowl_3_6d32c65d-e5b6-4aa3-8447-bbb15b4f0976.jpg",
+            "text_layout": "default-right",
+            "custom_color": false,
+            "text_color": "#2f5d62",
+            "title": "Loose Leaf Atlas",
+            "text": "Loose leaf atlas was founded on the idea to source high quality wood waste from backwoods logging sites to urban streets.",
+            "link": "shopify:\/\/collections\/loose-leaf-atlast-wood-objects",
+            "link_text": "View collection",
+            "button_style": "secondary"
+          }
         }
       },
       "block_order": [
         "template--15989329985708__d2c544a2-25e4-44e9-b699-e778646076ba-16706121185584cc35-0",
-        "template--15989329985708__d2c544a2-25e4-44e9-b699-e778646076ba-16706121185584cc35-1"
+        "template--15989329985708__d2c544a2-25e4-44e9-b699-e778646076ba-16706121185584cc35-1",
+        "4ffea7fe-3002-4a91-9bec-428576cc92e9"
       ],
       "settings": {
         "should_autoplay": false,
