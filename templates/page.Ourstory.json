@@ -1,10 +1,5 @@
 {
   "sections": {
-    "content": {
-      "type": "main-ourstory-page",
-      "settings": {
-      }
-    },
     "main": {
       "type": "dynamic-image-with-text-overlay",
       "settings": {
@@ -20,10 +15,15 @@
         "overlay_color": "#ffffff",
         "overlay_opacity": 38
       }
+    },
+    "content": {
+      "type": "main-ourstory-page",
+      "settings": {
+      }
     }
   },
   "order": [
-    "content",
-    "main"
+    "main",
+    "content"
   ]
 }

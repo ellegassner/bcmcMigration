@@ -3,10 +3,10 @@
     "cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9": {
       "type": "dynamic-slideshow",
       "blocks": {
-        "template--15989329985708__cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9-16706111016613fb8d-1": {
+        "6993956d-9b23-46cd-b5a1-a2d38eaca0c3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bueno-custom-karina-erhardt-photography.jpg",
+            "image": "shopify:\/\/shop_images\/Rebecca_Santry-Banner_Photo.jpg",
             "text_layout": "full-width-left",
             "custom_color": false,
             "text_color": "#2f5d62",
@@ -31,20 +31,6 @@
             "button_style": "secondary"
           }
         },
-        "6993956d-9b23-46cd-b5a1-a2d38eaca0c3": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rebecca_Santry-Banner_Photo.jpg",
-            "text_layout": "full-width-left",
-            "custom_color": false,
-            "text_color": "#2f5d62",
-            "title": "",
-            "text": "",
-            "link": "",
-            "link_text": "",
-            "button_style": "secondary"
-          }
-        },
         "f4ef9469-fc4e-4fbd-9b92-df4ea193ba67": {
           "type": "slide",
           "settings": {
@@ -58,13 +44,27 @@
             "link_text": "",
             "button_style": "secondary"
           }
+        },
+        "template--15989329985708__cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9-16706111016613fb8d-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bueno-custom-karina-erhardt-photography.jpg",
+            "text_layout": "full-width-left",
+            "custom_color": false,
+            "text_color": "#2f5d62",
+            "title": "",
+            "text": "",
+            "link": "",
+            "link_text": "",
+            "button_style": "secondary"
+          }
         }
       },
       "block_order": [
-        "template--15989329985708__cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9-16706111016613fb8d-1",
-        "bbf05fe6-4013-4d2c-931d-492df7f5bbfb",
         "6993956d-9b23-46cd-b5a1-a2d38eaca0c3",
-        "f4ef9469-fc4e-4fbd-9b92-df4ea193ba67"
+        "bbf05fe6-4013-4d2c-931d-492df7f5bbfb",
+        "f4ef9469-fc4e-4fbd-9b92-df4ea193ba67",
+        "template--15989329985708__cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9-16706111016613fb8d-1"
       ],
       "settings": {
         "should_autoplay": false,
@@ -136,11 +136,76 @@
         "should_autoplay": false,
         "slide_autoplay": 5
       }
+    },
+    "fca5bff9-786f-4318-90aa-7531daede0d7": {
+      "type": "dynamic-list-collections",
+      "blocks": {
+        "template--15989329985708__fca5bff9-786f-4318-90aa-7531daede0d7-167061211820a87276-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "art"
+          }
+        },
+        "template--15989329985708__fca5bff9-786f-4318-90aa-7531daede0d7-167061211820a87276-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "ceramics"
+          }
+        },
+        "template--15989329985708__fca5bff9-786f-4318-90aa-7531daede0d7-167061211820a87276-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "furniture"
+          }
+        },
+        "7db8dc6f-fdbc-41d5-9866-f8921f499dd5": {
+          "type": "collection",
+          "settings": {
+            "collection": "home-decor"
+          }
+        },
+        "ea26cc8a-974a-4e42-ba38-a8ebaec5003a": {
+          "type": "collection",
+          "settings": {
+            "collection": "textiles"
+          }
+        }
+      },
+      "block_order": [
+        "template--15989329985708__fca5bff9-786f-4318-90aa-7531daede0d7-167061211820a87276-0",
+        "template--15989329985708__fca5bff9-786f-4318-90aa-7531daede0d7-167061211820a87276-1",
+        "template--15989329985708__fca5bff9-786f-4318-90aa-7531daede0d7-167061211820a87276-2",
+        "7db8dc6f-fdbc-41d5-9866-f8921f499dd5",
+        "ea26cc8a-974a-4e42-ba38-a8ebaec5003a"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "subheading": "",
+        "show_descriptions": false
+      }
+    },
+    "67d057b1-a64d-4966-a28d-ee0b4d1ca398": {
+      "type": "dynamic-image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hazy_Pottery-36.jpg",
+        "text_layout": "center",
+        "title": "Hazy Pottery",
+        "subheading": "Ceramics",
+        "text": "<p>Add a touch of handmade uniqueness to your kitchen. Available in 10 colours so that you can truly find the right colour match for your home. <\/p>",
+        "custom_color": true,
+        "text_color": "#ffffff",
+        "link": "shopify:\/\/collections\/hazy-pottery",
+        "link_text": "View Collection",
+        "overlay_color": "#050505",
+        "overlay_opacity": 62
+      }
     }
   },
   "order": [
     "cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9",
     "905386a9-9c98-4faa-b1ce-81a3f88d253a",
-    "978cb35b-1fff-47b1-b64b-e62c7ce9b8e1"
+    "978cb35b-1fff-47b1-b64b-e62c7ce9b8e1",
+    "fca5bff9-786f-4318-90aa-7531daede0d7",
+    "67d057b1-a64d-4966-a28d-ee0b4d1ca398"
   ]
 }
