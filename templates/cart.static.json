@@ -1,0 +1,11 @@
+{
+    "name": "Static Cart",
+    "sections": {
+        "main": {
+            "type": "main-cart-static"
+        }
+    },
+    "order": [
+        "main"
+    ]
+}

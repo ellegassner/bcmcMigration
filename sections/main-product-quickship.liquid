@@ -1,7 +1,7 @@
 {% layout none %}
 
 <div class="product-quickshop">
-  {%
+    {%
     include 'product' with product,
     onboard: false,
     description: blank,
@@ -17,13 +17,10 @@
     product_gallery_position_desktop: 'left',
     enable_product_gallery_zoom: false,
     enable_product_sticky_details: false,
-  %}
+    %}
 </div>
 
-<script
-  type="application/json"
-  data-quickshop-data
->
+<script type="application/json" data-quickshop-data>
   {
     "money_format": {{ shop.money_format | strip_html | json }},
     "product": {{ product | json }},

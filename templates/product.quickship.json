@@ -1,0 +1,11 @@
+{
+    "name": "Product Quickship",
+    "sections": {
+        "main": {
+            "type": "main-product-quickship"
+        }
+    },
+    "order": [
+        "main"
+    ]
+}
