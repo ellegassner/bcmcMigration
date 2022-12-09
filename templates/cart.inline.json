@@ -1,0 +1,11 @@
+{
+    "name": "Cart Inline",
+    "sections": {
+        "main": {
+            "type": "main-cart-inline"
+        }
+    },
+    "order": [
+        "main"
+    ]
+}

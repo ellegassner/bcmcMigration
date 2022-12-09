@@ -1,0 +1,11 @@
+{
+    "name": "Mini Cart",
+    "sections": {
+        "main": {
+            "type": "main-cart-mini-cart"
+        }
+    },
+    "order": [
+        "main"
+    ]
+}
