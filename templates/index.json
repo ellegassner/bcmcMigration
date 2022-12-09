@@ -229,13 +229,14 @@
         "template--15989329985708__d2c544a2-25e4-44e9-b699-e778646076ba-16706121185584cc35-1": {
           "type": "slide",
           "settings": {
-            "text_layout": "default-left",
+            "image": "shopify:\/\/shop_images\/Eileen_Kiyonaga-Hoarfrost-1.jpg",
+            "text_layout": "default-right",
             "custom_color": false,
             "text_color": "#2f5d62",
-            "title": "Slide",
-            "text": "Introduce customers to your shop with lifestyle imagery and product photography.",
-            "link": "",
-            "link_text": "",
+            "title": "Eileen Kiyonaga Artworks",
+            "text": "Eileen is a multidisciplinary artist that uses wood and watercolour to communicate the fluid lines and natural geometries she finds so appealing in nature.",
+            "link": "shopify:\/\/collections\/eileen-kiyonaga-artworks",
+            "link_text": "View Collection",
             "button_style": "secondary"
           }
         }
