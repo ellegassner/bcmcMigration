@@ -298,6 +298,36 @@
         "collection": "blackbird-studio",
         "product_count": 4
       }
+    },
+    "04ccc775-36e8-40d4-b57d-bb7e12f37f20": {
+      "type": "dynamic-featured-product",
+      "settings": {
+        "product_handle": "mountain-progression-triptych",
+        "background": "background-default",
+        "description": "<p>Tell customers about the look, feel, and style of your product. Add details on color, materials, sizing, and where it was made.<\/p>",
+        "show_vendor": true,
+        "show_social_sharing_buttons": true,
+        "enable_sticky_details": false,
+        "product_gallery_layout_desktop": "slideshow",
+        "product_gallery_position_desktop": "left",
+        "product_gallery_position_mobile": "below",
+        "enable_image_zoom": true,
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "options_position": "below",
+        "quantity_picker_style": "integrated-with-button",
+        "show_payment_button": true,
+        "enable_cart_redirect": false
+      }
+    },
+    "894b5178-d8c6-4d6c-a670-c5950bcd3913": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Blackstrap Cloth & Co",
+        "subheading": "Featured collection",
+        "collection": "blackstrap-cloth-co",
+        "product_count": 4
+      }
     }
   },
   "order": [
@@ -310,6 +340,8 @@
     "d2c544a2-25e4-44e9-b699-e778646076ba",
     "193f3290-55e3-4e0f-a1c3-336228eb56ac",
     "d6717801-997e-4717-b946-bfd929db5e05",
-    "57995433-fd85-4984-85ee-a4242e41145a"
+    "57995433-fd85-4984-85ee-a4242e41145a",
+    "04ccc775-36e8-40d4-b57d-bb7e12f37f20",
+    "894b5178-d8c6-4d6c-a670-c5950bcd3913"
   ]
 }
