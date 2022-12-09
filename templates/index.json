@@ -208,6 +208,46 @@
         "collection": "rachael-ashe",
         "product_count": 4
       }
+    },
+    "d2c544a2-25e4-44e9-b699-e778646076ba": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "template--15989329985708__d2c544a2-25e4-44e9-b699-e778646076ba-16706121185584cc35-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2596E9D6-493C-4EE5-BE5D-BC70602D4548.jpg",
+            "text_layout": "default-right",
+            "custom_color": false,
+            "text_color": "#2f5d62",
+            "title": "Maughan Made",
+            "text": "Each Maughan Made piece is sparked by a fresh perspective and quickly transforms into a function and inspired creation.",
+            "link": "shopify:\/\/collections\/maughan-made-furniture",
+            "link_text": "View Collection",
+            "button_style": "secondary"
+          }
+        },
+        "template--15989329985708__d2c544a2-25e4-44e9-b699-e778646076ba-16706121185584cc35-1": {
+          "type": "slide",
+          "settings": {
+            "text_layout": "default-left",
+            "custom_color": false,
+            "text_color": "#2f5d62",
+            "title": "Slide",
+            "text": "Introduce customers to your shop with lifestyle imagery and product photography.",
+            "link": "",
+            "link_text": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--15989329985708__d2c544a2-25e4-44e9-b699-e778646076ba-16706121185584cc35-0",
+        "template--15989329985708__d2c544a2-25e4-44e9-b699-e778646076ba-16706121185584cc35-1"
+      ],
+      "settings": {
+        "should_autoplay": false,
+        "slide_autoplay": 5
+      }
     }
   },
   "order": [
@@ -216,6 +256,7 @@
     "978cb35b-1fff-47b1-b64b-e62c7ce9b8e1",
     "fca5bff9-786f-4318-90aa-7531daede0d7",
     "67d057b1-a64d-4966-a28d-ee0b4d1ca398",
-    "6abd48ba-4741-4abe-9097-d7f8e8f87910"
+    "6abd48ba-4741-4abe-9097-d7f8e8f87910",
+    "d2c544a2-25e4-44e9-b699-e778646076ba"
   ]
 }
