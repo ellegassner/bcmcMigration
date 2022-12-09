@@ -367,6 +367,27 @@
         "collection": "rebecca-santry",
         "product_count": 4
       }
+    },
+    "864a1396-30d4-4c43-96a2-7a4382de4e20": {
+      "type": "dynamic-featured-product",
+      "settings": {
+        "product_handle": "adanac-coffee-table",
+        "background": "background-default",
+        "description": "<p>This coffee table is a contemporary execution of the groundbreaking forms of the Eames'.<\/p>",
+        "show_vendor": true,
+        "show_social_sharing_buttons": true,
+        "enable_sticky_details": false,
+        "product_gallery_layout_desktop": "slideshow",
+        "product_gallery_position_desktop": "left",
+        "product_gallery_position_mobile": "below",
+        "enable_image_zoom": true,
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "options_position": "below",
+        "quantity_picker_style": "integrated-with-button",
+        "show_payment_button": true,
+        "enable_cart_redirect": false
+      }
     }
   },
   "order": [
@@ -384,6 +405,7 @@
     "894b5178-d8c6-4d6c-a670-c5950bcd3913",
     "7581c84e-018b-4dab-9977-e2a7b1e14317",
     "4ec33b7f-23b1-460b-9a45-105451c99415",
-    "2b885ab4-905e-4ab6-a083-813f580c538a"
+    "2b885ab4-905e-4ab6-a083-813f580c538a",
+    "864a1396-30d4-4c43-96a2-7a4382de4e20"
   ]
 }
