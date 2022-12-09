@@ -1,7 +1,48 @@
 {
   "sections": {
+    "cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "template--15989329985708__cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9-16706111016613fb8d-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bueno-custom-karina-erhardt-photography.jpg",
+            "text_layout": "full-width-left",
+            "custom_color": false,
+            "text_color": "#2f5d62",
+            "title": "",
+            "text": "",
+            "link": "",
+            "link_text": "",
+            "button_style": "secondary"
+          }
+        },
+        "bbf05fe6-4013-4d2c-931d-492df7f5bbfb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/filament-design-joseph-band.jpg",
+            "text_layout": "full-width-left",
+            "custom_color": false,
+            "text_color": "#2f5d62",
+            "title": "",
+            "text": "",
+            "link": "",
+            "link_text": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--15989329985708__cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9-16706111016613fb8d-1",
+        "bbf05fe6-4013-4d2c-931d-492df7f5bbfb"
+      ],
+      "settings": {
+        "should_autoplay": false,
+        "slide_autoplay": 5
+      }
+    }
   },
   "order": [
-
+    "cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9"
   ]
 }

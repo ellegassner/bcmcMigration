@@ -114,36 +114,6 @@
           "show_currency_selector": true
         }
       },
-      "static-product-pages": {
-        "type": "static-product-pages",
-        "settings": {
-          "show_vendor": true,
-          "show_social_sharing_buttons": true,
-          "enable_sticky_details": true,
-          "product_gallery_layout_desktop": "slideshow",
-          "product_gallery_position_desktop": "left",
-          "product_gallery_position_mobile": "below",
-          "enable_image_zoom": true,
-          "gallery_video_autoplay": false,
-          "gallery_video_looping": false,
-          "options_position": "below",
-          "quantity_picker_style": "integrated-with-button",
-          "show_payment_button": true,
-          "enable_cart_redirect": true
-        }
-      },
-      "static-blog": {
-        "type": "static-blog",
-        "settings": {
-          "show_rss_link": false,
-          "show_date": true,
-          "show_author": false,
-          "show_comments_count": true,
-          "show_excerpt": true,
-          "show_tags": true,
-          "posts_per_page": 6
-        }
-      },
       "1519077071323": {
         "type": "dynamic-slideshow",
         "blocks": {
@@ -215,41 +185,6 @@
           "slide_autoplay": 4
         }
       },
-      "static-testimonials": {
-        "type": "static-testimonials",
-        "settings": {
-          "title": "",
-          "subheading": "",
-          "background": "background-default"
-        }
-      },
-      "static-collection-pages": {
-        "type": "static-collection-pages",
-        "settings": {
-          "show_collection_image": true,
-          "sort_by": true,
-          "filter_style": "groups",
-          "products_enable_standard_product_grid": true,
-          "products_products_per_row": 3,
-          "products_products_per_page": 32
-        }
-      },
-      "static-list-collections": {
-        "type": "static-list-collections",
-        "settings": {
-          "show_descriptions": false,
-          "collections_per_page": 16
-        }
-      },
-      "static-article": {
-        "type": "static-article",
-        "settings": {
-          "show_date": true,
-          "show_author": true,
-          "show_tags": true,
-          "show_share_buttons": true
-        }
-      },
       "pxs-announcement-bar": {
         "type": "pxs-announcement-bar",
         "settings": {
@@ -318,13 +253,6 @@
           "slide_autoplay": 5
         }
       },
-      "static-cart": {
-        "type": "static-cart",
-        "settings": {
-          "shipping_calc_enable": true,
-          "shipping_calc_default_country": "Canada"
-        }
-      },
       "static-header-reduced": {
         "type": "static-header-reduced",
         "settings": {
@@ -339,16 +267,6 @@
           "heading": "Opening soon!",
           "show_newsletter": true,
           "newsletter_text": "<p>Be the first to know when we launch<\/p>"
-        }
-      },
-      "static-product-recommendations": {
-        "type": "static-product-recommendations",
-        "settings": {
-          "show_product_recommendations": false,
-          "product_recommendations_heading": "You may also like",
-          "subheading": "",
-          "product_count": 4,
-          "background": "background-default"
         }
       },
       "dynamic-image-with-text-overlay": {
@@ -1122,24 +1040,6 @@
             "background": "background-default"
           }
         },
-        "static-product-pages": {
-          "type": "static-product-pages",
-          "settings": {
-            "show_payment_button": true
-          }
-        },
-        "static-blog": {
-          "type": "static-blog",
-          "settings": {
-            "show_rss_link": false,
-            "show_date": true,
-            "show_author": false,
-            "show_comments_count": true,
-            "show_excerpt": true,
-            "show_tags": true,
-            "posts_per_page": 6
-          }
-        },
         "1517608432607": {
           "type": "dynamic-image-with-text-overlay",
           "settings": {
@@ -1212,45 +1112,6 @@
             "background": "background-default"
           }
         },
-        "static-testimonials": {
-          "type": "static-testimonials",
-          "blocks": {
-            "1519258233146": {
-              "type": "testimonial",
-              "settings": {
-                "style": "facebook"
-              }
-            },
-            "1519258254789": {
-              "type": "testimonial",
-              "settings": {
-                "style": "standard"
-              }
-            },
-            "1519258277267": {
-              "type": "testimonial",
-              "settings": {
-                "style": "twitter"
-              }
-            }
-          },
-          "block_order": [
-            "1519258233146",
-            "1519258254789",
-            "1519258277267"
-          ],
-          "settings": {
-            "background": "background-default"
-          }
-        },
-        "static-collection-pages": {
-          "type": "static-collection-pages",
-          "settings": {
-            "show_collection_image": false,
-            "sort_by": false,
-            "filter_style": "tags"
-          }
-        },
         "1517607498124": {
           "type": "dynamic-list-collections",
           "blocks": {
@@ -1277,22 +1138,6 @@
           ],
           "settings": {
             "show_descriptions": true
-          }
-        },
-        "static-list-collections": {
-          "type": "static-list-collections",
-          "settings": {
-            "show_descriptions": true,
-            "collections_per_page": 8
-          }
-        },
-        "static-article": {
-          "type": "static-article",
-          "settings": {
-            "show_date": true,
-            "show_author": true,
-            "show_tags": true,
-            "show_share_buttons": true
           }
         }
       },
@@ -1369,105 +1214,6 @@
           ],
           "settings": {
             "payment_icons": false
-          }
-        },
-        "static-list-collections": {
-          "type": "static-list-collections",
-          "settings": {
-            "show_descriptions": false,
-            "collections_per_page": 8
-          }
-        },
-        "static-article": {
-          "type": "static-article",
-          "settings": {
-            "show_date": true,
-            "show_author": false,
-            "show_tags": false,
-            "show_share_buttons": true
-          }
-        },
-        "static-product-recommendations": {
-          "type": "static-product-recommendations",
-          "settings": {
-            "product_count": 3,
-            "background": "background-default"
-          }
-        },
-        "static-product-pages": {
-          "type": "static-product-pages",
-          "settings": {
-          }
-        },
-        "static-blog": {
-          "type": "static-blog",
-          "settings": {
-            "show_rss_link": true,
-            "show_date": true,
-            "show_author": true,
-            "show_comments_count": true,
-            "show_excerpt": true,
-            "show_tags": true,
-            "posts_per_page": 3
-          }
-        },
-        "static-testimonials": {
-          "type": "static-testimonials",
-          "settings": {
-            "background": "background-alternate"
-          }
-        },
-        "static-collection-pages": {
-          "type": "static-collection-pages",
-          "settings": {
-            "show_collection_image": false,
-            "sort_by": false,
-            "filter_style": "groups"
-          }
-        },
-        "static-story": {
-          "type": "static-story",
-          "blocks": {
-            "static-story-1": {
-              "type": "images-with-text",
-              "settings": {
-              }
-            },
-            "static-story-2": {
-              "type": "features-list",
-              "settings": {
-              }
-            },
-            "static-story-3": {
-              "type": "video-with-text",
-              "settings": {
-                "text_layout": "top",
-                "aspect_ratio": "aspect-ratio-16-by-9"
-              }
-            },
-            "static-story-4": {
-              "type": "gallery",
-              "settings": {
-              }
-            },
-            "static-story-5": {
-              "type": "share",
-              "settings": {
-                "custom_color": true,
-                "text_color": "#ffffff",
-                "overlay_color": "#000000",
-                "overlay_opacity": 35
-              }
-            }
-          },
-          "block_order": [
-            "static-story-1",
-            "static-story-2",
-            "static-story-3",
-            "static-story-4",
-            "static-story-5"
-          ],
-          "settings": {
           }
         },
         "dynamic-newsletter": {
@@ -1634,29 +1380,6 @@
             "navigation_layout": "drawer"
           }
         },
-        "static-list-collections": {
-          "type": "static-list-collections",
-          "settings": {
-            "show_descriptions": false,
-            "collections_per_page": 8
-          }
-        },
-        "static-article": {
-          "type": "static-article",
-          "settings": {
-            "show_date": true,
-            "show_author": true,
-            "show_tags": true,
-            "show_share_buttons": true
-          }
-        },
-        "static-product-recommendations": {
-          "type": "static-product-recommendations",
-          "settings": {
-            "product_count": 3,
-            "background": "background-alternate"
-          }
-        },
         "static-footer": {
           "type": "static-footer",
           "blocks": {
@@ -1685,64 +1408,6 @@
           ],
           "settings": {
             "payment_icons": false
-          }
-        },
-        "static-story": {
-          "type": "static-story",
-          "blocks": {
-            "static-story-1": {
-              "type": "rich-text",
-              "settings": {
-                "text_layout": "center",
-                "background": "background-alternate"
-              }
-            },
-            "static-story-2": {
-              "type": "images-with-text",
-              "settings": {
-              }
-            },
-            "static-story-3": {
-              "type": "features-list",
-              "settings": {
-              }
-            },
-            "static-story-4": {
-              "type": "image-with-text-overlay",
-              "settings": {
-                "text_layout": "left",
-                "custom_color": true,
-                "text_color": "#ffffff"
-              }
-            }
-          },
-          "block_order": [
-            "static-story-1",
-            "static-story-2",
-            "static-story-3",
-            "static-story-4"
-          ],
-          "settings": {
-          }
-        },
-        "static-collection-pages": {
-          "type": "static-collection-pages",
-          "settings": {
-            "show_collection_image": false,
-            "sort_by": true,
-            "filter_style": "none"
-          }
-        },
-        "static-blog": {
-          "type": "static-blog",
-          "settings": {
-            "show_rss_link": true,
-            "show_date": true,
-            "show_author": true,
-            "show_comments_count": true,
-            "show_excerpt": true,
-            "show_tags": true,
-            "posts_per_page": 3
           }
         },
         "dynamic-rich-text": {
