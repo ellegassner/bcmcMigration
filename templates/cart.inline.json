@@ -1,11 +1,12 @@
 {
-    "name": "Cart Inline",
-    "sections": {
-        "main": {
-            "type": "main-cart-inline"
-        }
-    },
-    "order": [
-        "main"
-    ]
+  "sections": {
+    "main": {
+      "type": "main-cart-inline",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
 }
