@@ -358,6 +358,15 @@
         "show_payment_button": true,
         "enable_cart_redirect": false
       }
+    },
+    "2b885ab4-905e-4ab6-a083-813f580c538a": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Rebecca Santry",
+        "subheading": "Featured collection",
+        "collection": "rebecca-santry",
+        "product_count": 4
+      }
     }
   },
   "order": [
@@ -374,6 +383,7 @@
     "04ccc775-36e8-40d4-b57d-bb7e12f37f20",
     "894b5178-d8c6-4d6c-a670-c5950bcd3913",
     "7581c84e-018b-4dab-9977-e2a7b1e14317",
-    "4ec33b7f-23b1-460b-9a45-105451c99415"
+    "4ec33b7f-23b1-460b-9a45-105451c99415",
+    "2b885ab4-905e-4ab6-a083-813f580c538a"
   ]
 }
