@@ -1,11 +1,16 @@
 {
   "sections": {
+    "content": {
+      "type": "main-ourstory-page",
+      "settings": {
+      }
+    },
     "main": {
       "type": "dynamic-image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1.JPEG",
+        "image": "shopify:\/\/shop_images\/Tofino_B.C.-02.jpg",
         "text_layout": "center",
-        "title": "",
+        "title": "West Coast Style. West Coast Made.",
         "subheading": "",
         "text": "",
         "custom_color": false,
@@ -15,15 +20,10 @@
         "overlay_color": "#ffffff",
         "overlay_opacity": 38
       }
-    },
-    "content": {
-      "type": "main-ourstory-page",
-      "settings": {
-      }
     }
   },
   "order": [
-    "main",
-    "content"
+    "content",
+    "main"
   ]
 }
