@@ -1,15 +1,29 @@
 {
-    "name": "Our Story",
-    "sections": {
-        "main": {
-            "type": "dynamic-image-with-text-overlay"
-        },
-        "content": {
-            "type": "main-ourstory-page"
-        }
+  "sections": {
+    "main": {
+      "type": "dynamic-image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1.JPEG",
+        "text_layout": "center",
+        "title": "",
+        "subheading": "",
+        "text": "",
+        "custom_color": false,
+        "text_color": "#2f5d62",
+        "link": "",
+        "link_text": "",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 38
+      }
     },
-    "order": [
-        "main",
-        "content"
-    ]
+    "content": {
+      "type": "main-ourstory-page",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "content"
+  ]
 }
