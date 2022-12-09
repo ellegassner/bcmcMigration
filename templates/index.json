@@ -70,9 +70,20 @@
         "should_autoplay": false,
         "slide_autoplay": 5
       }
+    },
+    "905386a9-9c98-4faa-b1ce-81a3f88d253a": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "title": "West Coast Style. West Coast Made.",
+        "subheading": "When you buy from a small company, an actual person does a happy dance",
+        "text": "<p>BC Makers Collective is a curated online shop for west-coast home furnishings, created by local artisans, shipped directly from them, to you.<\/p>",
+        "text_layout": "center",
+        "background": "background-default"
+      }
     }
   },
   "order": [
-    "cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9"
+    "cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9",
+    "905386a9-9c98-4faa-b1ce-81a3f88d253a"
   ]
 }
