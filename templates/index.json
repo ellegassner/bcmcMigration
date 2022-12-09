@@ -111,11 +111,26 @@
             "link_text": "",
             "button_style": "secondary"
           }
+        },
+        "83c3c47e-230e-4de0-9165-d2d4ca027a53": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wendy_Website_Photo.png",
+            "text_layout": "default-left",
+            "custom_color": false,
+            "text_color": "#2f5d62",
+            "title": "Wendy",
+            "text": "Wendy's career focus started in design, switched to having kids, and now it's a nice mix of designing and \"mom-ing\". She graduated from Interior Design, before leaving Ontario and studied Holistic Nutrition and reiki, before returning to interior design in 2016.",
+            "link": "",
+            "link_text": "",
+            "button_style": "secondary"
+          }
         }
       },
       "block_order": [
         "template--15989329985708__978cb35b-1fff-47b1-b64b-e62c7ce9b8e1-16706111210fd25224-0",
-        "template--15989329985708__978cb35b-1fff-47b1-b64b-e62c7ce9b8e1-16706111210fd25224-1"
+        "template--15989329985708__978cb35b-1fff-47b1-b64b-e62c7ce9b8e1-16706111210fd25224-1",
+        "83c3c47e-230e-4de0-9165-d2d4ca027a53"
       ],
       "settings": {
         "should_autoplay": false,
