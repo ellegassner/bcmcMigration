@@ -328,6 +328,15 @@
         "collection": "blackstrap-cloth-co",
         "product_count": 4
       }
+    },
+    "7581c84e-018b-4dab-9977-e2a7b1e14317": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Jenna Jones Art",
+        "subheading": "Featured collection",
+        "collection": "jenna-jones-art",
+        "product_count": 4
+      }
     }
   },
   "order": [
@@ -342,6 +351,7 @@
     "d6717801-997e-4717-b946-bfd929db5e05",
     "57995433-fd85-4984-85ee-a4242e41145a",
     "04ccc775-36e8-40d4-b57d-bb7e12f37f20",
-    "894b5178-d8c6-4d6c-a670-c5950bcd3913"
+    "894b5178-d8c6-4d6c-a670-c5950bcd3913",
+    "7581c84e-018b-4dab-9977-e2a7b1e14317"
   ]
 }
