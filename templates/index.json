@@ -44,12 +44,27 @@
             "link_text": "",
             "button_style": "secondary"
           }
+        },
+        "f4ef9469-fc4e-4fbd-9b92-df4ea193ba67": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/studio-a-ceramics-allysha-hurd.jpg",
+            "text_layout": "full-width-left",
+            "custom_color": false,
+            "text_color": "#2f5d62",
+            "title": "",
+            "text": "",
+            "link": "",
+            "link_text": "",
+            "button_style": "secondary"
+          }
         }
       },
       "block_order": [
         "template--15989329985708__cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9-16706111016613fb8d-1",
         "bbf05fe6-4013-4d2c-931d-492df7f5bbfb",
-        "6993956d-9b23-46cd-b5a1-a2d38eaca0c3"
+        "6993956d-9b23-46cd-b5a1-a2d38eaca0c3",
+        "f4ef9469-fc4e-4fbd-9b92-df4ea193ba67"
       ],
       "settings": {
         "should_autoplay": false,
