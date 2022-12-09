@@ -388,6 +388,15 @@
         "show_payment_button": true,
         "enable_cart_redirect": false
       }
+    },
+    "823e2617-ca78-4610-90f9-20fcc023517a": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Sitka + Seas",
+        "subheading": "Featured collection",
+        "collection": "sitkas-seas-prints",
+        "product_count": 4
+      }
     }
   },
   "order": [
@@ -406,6 +415,7 @@
     "7581c84e-018b-4dab-9977-e2a7b1e14317",
     "4ec33b7f-23b1-460b-9a45-105451c99415",
     "2b885ab4-905e-4ab6-a083-813f580c538a",
-    "864a1396-30d4-4c43-96a2-7a4382de4e20"
+    "864a1396-30d4-4c43-96a2-7a4382de4e20",
+    "823e2617-ca78-4610-90f9-20fcc023517a"
   ]
 }
