@@ -397,6 +397,16 @@
         "collection": "sitkas-seas-prints",
         "product_count": 4
       }
+    },
+    "19e2dd02-df49-4d73-919d-6adfec664047": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "text": "<p>We would like to acknowledge that we gratefully reside in the unceded territory of Sḵwx̱wú7mesh and the other 197 First Nations traditional and ancestral unceded territories in British Columbia.<\/p>",
+        "text_layout": "center",
+        "background": "background-default"
+      }
     }
   },
   "order": [
@@ -416,6 +426,7 @@
     "4ec33b7f-23b1-460b-9a45-105451c99415",
     "2b885ab4-905e-4ab6-a083-813f580c538a",
     "864a1396-30d4-4c43-96a2-7a4382de4e20",
-    "823e2617-ca78-4610-90f9-20fcc023517a"
+    "823e2617-ca78-4610-90f9-20fcc023517a",
+    "19e2dd02-df49-4d73-919d-6adfec664047"
   ]
 }
