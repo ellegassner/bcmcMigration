@@ -93,7 +93,7 @@
             "text_color": "#2f5d62",
             "title": "Hello + Welcome!",
             "text": "We are the owners of BC Makers Collective, Elle & Wendy! Swipe right to learn more about us.. you know you want to!",
-            "link": "https:\/\/bcmakerscollective.com\/pages\/about-us",
+            "link": "shopify:\/\/pages\/about-us",
             "link_text": "Learn More",
             "button_style": "secondary"
           }
