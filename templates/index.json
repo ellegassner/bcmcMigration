@@ -337,6 +337,27 @@
         "collection": "jenna-jones-art",
         "product_count": 4
       }
+    },
+    "4ec33b7f-23b1-460b-9a45-105451c99415": {
+      "type": "dynamic-featured-product",
+      "settings": {
+        "product_handle": "floral-frame-weave",
+        "background": "background-default",
+        "description": "<p>Bring a mix of modern and retro into your home with this floral frame weave.<\/p>",
+        "show_vendor": true,
+        "show_social_sharing_buttons": true,
+        "enable_sticky_details": false,
+        "product_gallery_layout_desktop": "slideshow",
+        "product_gallery_position_desktop": "left",
+        "product_gallery_position_mobile": "below",
+        "enable_image_zoom": true,
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "options_position": "below",
+        "quantity_picker_style": "integrated-with-button",
+        "show_payment_button": true,
+        "enable_cart_redirect": false
+      }
     }
   },
   "order": [
@@ -352,6 +373,7 @@
     "57995433-fd85-4984-85ee-a4242e41145a",
     "04ccc775-36e8-40d4-b57d-bb7e12f37f20",
     "894b5178-d8c6-4d6c-a670-c5950bcd3913",
-    "7581c84e-018b-4dab-9977-e2a7b1e14317"
+    "7581c84e-018b-4dab-9977-e2a7b1e14317",
+    "4ec33b7f-23b1-460b-9a45-105451c99415"
   ]
 }
