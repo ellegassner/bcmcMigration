@@ -289,6 +289,15 @@
         "overlay_color": "#050505",
         "overlay_opacity": 9
       }
+    },
+    "57995433-fd85-4984-85ee-a4242e41145a": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Paige Coull",
+        "subheading": "featured collection",
+        "collection": "blackbird-studio",
+        "product_count": 4
+      }
     }
   },
   "order": [
@@ -300,6 +309,7 @@
     "6abd48ba-4741-4abe-9097-d7f8e8f87910",
     "d2c544a2-25e4-44e9-b699-e778646076ba",
     "193f3290-55e3-4e0f-a1c3-336228eb56ac",
-    "d6717801-997e-4717-b946-bfd929db5e05"
+    "d6717801-997e-4717-b946-bfd929db5e05",
+    "57995433-fd85-4984-85ee-a4242e41145a"
   ]
 }
