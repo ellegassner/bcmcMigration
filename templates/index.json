@@ -80,10 +80,52 @@
         "text_layout": "center",
         "background": "background-default"
       }
+    },
+    "978cb35b-1fff-47b1-b64b-e62c7ce9b8e1": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "template--15989329985708__978cb35b-1fff-47b1-b64b-e62c7ce9b8e1-16706111210fd25224-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wendy_and_Elle_Website_Photo.png",
+            "text_layout": "default-left",
+            "custom_color": false,
+            "text_color": "#2f5d62",
+            "title": "Hello + Welcome!",
+            "text": "We are the owners of BC Makers Collective, Elle & Wendy! Swipe right to learn more about us.. you know you want to!",
+            "link": "",
+            "link_text": "",
+            "button_style": "secondary"
+          }
+        },
+        "template--15989329985708__978cb35b-1fff-47b1-b64b-e62c7ce9b8e1-16706111210fd25224-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Test_3.png",
+            "text_layout": "default-left",
+            "custom_color": false,
+            "text_color": "#2f5d62",
+            "title": "Elle",
+            "text": "Elle loves hiking in the lush forests around Squamish when she's not creating in the solitude of her studio (aka her garage), and is a big fan of a craft beer, and a few laughs on a sunny patio. She studied Interior Design at the university of Wisconsin-Madison and relocated to BC for love in 2015, and stayed because she realized what so many know: the west-coast really is the best coast.",
+            "link": "",
+            "link_text": "",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "template--15989329985708__978cb35b-1fff-47b1-b64b-e62c7ce9b8e1-16706111210fd25224-0",
+        "template--15989329985708__978cb35b-1fff-47b1-b64b-e62c7ce9b8e1-16706111210fd25224-1"
+      ],
+      "settings": {
+        "should_autoplay": false,
+        "slide_autoplay": 5
+      }
     }
   },
   "order": [
     "cceffbd6-ca5e-45d6-896b-8ceb9efa8ae9",
-    "905386a9-9c98-4faa-b1ce-81a3f88d253a"
+    "905386a9-9c98-4faa-b1ce-81a3f88d253a",
+    "978cb35b-1fff-47b1-b64b-e62c7ce9b8e1"
   ]
 }
