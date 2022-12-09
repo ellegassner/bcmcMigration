@@ -264,6 +264,31 @@
         "should_autoplay": false,
         "slide_autoplay": 5
       }
+    },
+    "193f3290-55e3-4e0f-a1c3-336228eb56ac": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Magda Johnson Fine Art",
+        "subheading": "Featured collection",
+        "collection": "magda-johnson-fine-art",
+        "product_count": 4
+      }
+    },
+    "d6717801-997e-4717-b946-bfd929db5e05": {
+      "type": "dynamic-image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Folk_and_Fate-Boho_Throw_Blanket-1.jpg",
+        "text_layout": "center",
+        "title": "Folk + Fate",
+        "subheading": "Sustainable and eco-friendly, this design i smade from 100% recycled cotton and is reversivle",
+        "text": "<p>This boho throw is the perfect sidekick for all kinds of adventures, or as a beautiful addition to your living space. <\/p>",
+        "custom_color": true,
+        "text_color": "#ffffff",
+        "link": "shopify:\/\/products\/boho-throw-blanket",
+        "link_text": "View Product",
+        "overlay_color": "#050505",
+        "overlay_opacity": 9
+      }
     }
   },
   "order": [
@@ -273,6 +298,8 @@
     "fca5bff9-786f-4318-90aa-7531daede0d7",
     "67d057b1-a64d-4966-a28d-ee0b4d1ca398",
     "6abd48ba-4741-4abe-9097-d7f8e8f87910",
-    "d2c544a2-25e4-44e9-b699-e778646076ba"
+    "d2c544a2-25e4-44e9-b699-e778646076ba",
+    "193f3290-55e3-4e0f-a1c3-336228eb56ac",
+    "d6717801-997e-4717-b946-bfd929db5e05"
   ]
 }
