@@ -407,6 +407,51 @@
         "text_layout": "center",
         "background": "background-default"
       }
+    },
+    "0a99b298-bc1c-4152-826e-e69d32850dd1": {
+      "type": "dynamic-testimonials",
+      "blocks": {
+        "template--15989329985708__0a99b298-bc1c-4152-826e-e69d32850dd1-16706111844934b0cb-0": {
+          "type": "testimonial",
+          "settings": {
+            "title": "TARA",
+            "link": "",
+            "caption": "“I recently purchased tea towels from Lin textiles through this site and had a great experience! I received the items on time and as described. The towels arrived in attractive packaging. They are functional, look and feel great!”",
+            "style": "standard",
+            "product_handle": ""
+          }
+        },
+        "template--15989329985708__0a99b298-bc1c-4152-826e-e69d32850dd1-16706111844934b0cb-1": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Name",
+            "link": "",
+            "caption": "Showcase up to three testimonials to build trust with potential customers.",
+            "style": "facebook",
+            "product_handle": ""
+          }
+        },
+        "template--15989329985708__0a99b298-bc1c-4152-826e-e69d32850dd1-16706111844934b0cb-2": {
+          "type": "testimonial",
+          "settings": {
+            "title": "Name",
+            "link": "",
+            "caption": "Showcase up to three testimonials to build trust with potential customers.",
+            "style": "standard",
+            "product_handle": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15989329985708__0a99b298-bc1c-4152-826e-e69d32850dd1-16706111844934b0cb-0",
+        "template--15989329985708__0a99b298-bc1c-4152-826e-e69d32850dd1-16706111844934b0cb-1",
+        "template--15989329985708__0a99b298-bc1c-4152-826e-e69d32850dd1-16706111844934b0cb-2"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "subheading": "",
+        "background": "background-default"
+      }
     }
   },
   "order": [
@@ -427,6 +472,7 @@
     "2b885ab4-905e-4ab6-a083-813f580c538a",
     "864a1396-30d4-4c43-96a2-7a4382de4e20",
     "823e2617-ca78-4610-90f9-20fcc023517a",
-    "19e2dd02-df49-4d73-919d-6adfec664047"
+    "19e2dd02-df49-4d73-919d-6adfec664047",
+    "0a99b298-bc1c-4152-826e-e69d32850dd1"
   ]
 }
