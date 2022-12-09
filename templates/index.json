@@ -199,6 +199,15 @@
         "overlay_color": "#050505",
         "overlay_opacity": 62
       }
+    },
+    "6abd48ba-4741-4abe-9097-d7f8e8f87910": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Rachael Ashe",
+        "subheading": "featured collection",
+        "collection": "rachael-ashe",
+        "product_count": 4
+      }
     }
   },
   "order": [
@@ -206,6 +215,7 @@
     "905386a9-9c98-4faa-b1ce-81a3f88d253a",
     "978cb35b-1fff-47b1-b64b-e62c7ce9b8e1",
     "fca5bff9-786f-4318-90aa-7531daede0d7",
-    "67d057b1-a64d-4966-a28d-ee0b4d1ca398"
+    "67d057b1-a64d-4966-a28d-ee0b4d1ca398",
+    "6abd48ba-4741-4abe-9097-d7f8e8f87910"
   ]
 }
